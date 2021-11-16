@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #F7E7CE;
+	font-family: bilo,sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	margin: 3%;
+}
+
+h1 {
+    text-align: center;
+    font-family: linotype-didot,serif;
+    font-weight: bold;
+    font-size: 80px;
+	color: #0A0A0A;
+	margin: 2% 10%;
+}
+
+nav {
+	text-align: center;
+	font-family: bilo,sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #8C92AC;
+	padding: 20px;
+
+}
+
+nav a {
+	color: #0A0A0A;
+	text-decoration: none;
+	padding: 3%;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+p a:link, footer a:link {
+	color: #6699CC;
+	text-decoration: none;
+}
+
+p a:hover, footer a:hover {
+	color: #7FE1FF;
+	text-decoration: underline;
+}
+
+p a:visited, footer a:visited {
+	color: #15252A;
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+	padding-top: 40px;
+	clear: both;
+}
+
+.quote {
+	padding: 17% 5%;
+	text-align: left;
+	background-image: url("images/nordwood-themes-camera.jpg");
+	background-position: center;
+	background-size: cover;
+	font-size: 200%;
+}
+
+.text {
+	padding: 1% 2%;
+}
+
+.text img {
+	display: block;
+  	margin: auto;
+  	width: 20%;
+}
+
+.gallery {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.images {
+ 	margin: 10px;
+  	border: 1px solid lightgray;
+  	width: 48%;
+	float: left;
+}
+
+.images:hover {
+  	border: 1px solid darkgray;
+}
+
+.images img {
+  	width: 100%;
+  	height: auto;
+}
+
+.desc {
+  	padding: 15px;
+  	text-align: center;
+}
+
+

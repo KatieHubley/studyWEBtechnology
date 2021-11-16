@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: neuzeit-grotesk, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	background-image: url("images/background.svg");
+	background-size:50%;
+}
+.container {
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255,255,255,0.80);
+}
+header {
+	text-align: center;
+	padding-bottom: 10px;
+}
+nav a:link{
+	text-transform: uppercase;
+	color:black;
+	font-size: 150%;
+	text-decoration: none;
+	padding-right: 20px;
+	font-weight:700;
+}
+a:link{
+	color:black;
+	font-weight:700;
+}
+.column1 {
+	width: 48%;
+	float:left;
+	font-size:7vw;
+}
+
+blockquote{
+	border-right: 1px solid black;
+}
+.column1 p{
+	font-size:60%;
+	text-align: center;
+}
+
+.column2 {
+	width: 48%;
+	float:left;
+	padding:2%;
+}
+
+.column2 img{
+	width:70%;
+	height:auto;
+	padding-left: 10%;
+}
+
+.clearfloat {
+	clear:both;
+}
+
+.world{
+	font-weight:bold;
+	display:block;
+	text-transform:uppercase;
+	letter-spacing: .05em;
+	line-height: .9em;
+}
+.imagecontainer img {
+	width:100%;
+	height:auto;
+}
+footer {
+	background-color:rgba(147,139,88,1.00) ;
+	clear:both;
+	text-align: center;
+}
+h1{
+	font-family: filmotype-maxwell,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16vw;
+	margin:0;
+}
+
+
+
+
+

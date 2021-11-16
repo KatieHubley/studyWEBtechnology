@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-weight: 300;
+	font-style: normal;
+	background-image: url("images/background.svg");
+	background-size: 50%;
+	background-blend-mode: multiply;
+	background-color: green;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.container {
+	background-color: rgba(152, 251, 152, 0.80);
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 12vw;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 2em;
+	margin: 0;
+	background-color: rgba(245, 255, 250, 0.5);
+}
+
+nav {
+	text-align: center;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 3vw;
+	color: seagreen;
+	background-color: seagreen;
+	width: 100%;
+}
+	
+nav a {
+	text-decoration: none;
+}
+	
+nav a:link {
+	color: lightgreen;
+}
+	
+nav a:hover {
+	color: white;
+}
+	
+nav a:visited {
+	color: palegreen;
+}
+
+blockquote {
+	font-family: 'Bitter', sans-serif;
+}
+
+.column1 {
+	width: 48%;
+	float: left;
+	font-size: 6vw;
+}
+
+.column1 p {
+	font-size: 60%;
+	text-align: center;
+}
+
+.column2 {
+	width: 48%;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.7vw
+}
+
+.column2 img {
+	width: 70%;
+	height: auto;
+	padding-left: 10%;
+}
+
+.clearfloat {
+	clear: both;
+}
+
+.images {
+	background-color: seagreen;
+}
+
+.world {
+	font-weight: 700;
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	line-height: 0.9em;
+}
+
+.imagecontainer {
+	float: left;
+	width: 33.33%;
+}
+
+.imagecontainer img {
+	width: 100%;
+	height: auto;
+}
+
+p {
+	font-family: 'Bitter', serif;
+}
+
+.clearfloat {
+	clear: both;
+}
+
+.column2 a {
+	color: green;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.column2 a:hover {
+	color: rgba(245, 255, 250, 1);
+}
+
+.column2 a:visited {
+	color: darkolivegreen;
+}
+
+.images {
+	background-color: #009E60;
+}
+
+footer {
+	font-family: 'Bitter', serif;
+	text-align: center;
+	background-color: seagreen;
+	color:white;
+	clear: both;
+}

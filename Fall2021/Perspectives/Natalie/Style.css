@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url("Project3_Assets/P3BackW.jpg"), url("Project3_Assets/P3BackgroundImage.jpg");
+	background-repeat: no-repeat, no-repeat;
+	background-size: 100% 70%, cover;
+}
+.greybackground {
+	position: fixed;
+	z-index: -1;
+	left: 70px;
+    top: 0px;
+	bottom: 0px;
+	width: 25%; 
+	height: 100vh;
+	background: black;
+	opacity: 0.05;
+}
+header {
+	margin: 65px 95px 0px 95px;
+	text-align: left;
+}
+header h1 {
+	display: inline-block;
+	margin-left: -10px;
+	font-family: 'Playfair Display', serif;
+	font-size: 237%;
+}
+header img {
+	float: left;
+	min-width: 90px;
+	max-width: 90px;
+	padding-top: 10px;
+}
+nav {
+	display: inline-block;
+	float: right;
+	margin-top: 40px;
+	font-family: 'Playfair Display', serif;
+	font-size: 137%;
+	text-align: right;
+	word-spacing: 50px;
+}
+nav a:link {
+	color: black;
+	text-align: right;
+	text-decoration: none;
+}	
+a:link {
+	color: black;
+}
+a:visited {
+  color: black;
+}
+.column1 {
+	position: relative;
+	float: left;
+	display: inline-block;
+	width: 30%;
+	min-width: 350px;
+	margin: 65px 0px 0px 185px;
+	font-family: 'Playfair Display', serif;
+	font-size: 281%;
+	text-align: left;
+}
+.column1 p {
+	margin-top: -25px;
+	margin-right: 15%;
+	font-size: 70%;
+	text-align: right;
+}
+.column2 {
+	position: relative;
+	float: left;
+	clear: left;
+	width: 23%;
+	min-width: 200px;
+	margin: 10px 15px 0px 290px;
+	font-family: 'Inter', sans-serif;
+	font-size: 112%;
+	text-align: left;
+}
+.clearfloat {
+	clear: both;
+}
+.imagecontainer2 img {
+	float: right;
+	clear: both;
+	width: 48%;
+	margin-top: 70px;
+	margin-right: 95px;
+}
+.imagecontainer1 img {
+	display:inline-block;
+	float: right;
+	width: 35%;
+	margin-top: 45px;
+	margin-right: 40%;
+	margin-bottom: 40px;
+}
+.socialicons {
+	margin: 15% 0px 0px 95px;
+}
+.socialicons img{
+	display: block;
+	width: 80px;
+	min-width: 80px;
+	max-width: 80px;
+}
+footer {
+	clear: both;
+	margin: 0px 0px 20px 0px;
+	font-family: 'Playfair Display', serif;
+	font-size: 100%;
+	text-align: center;
+}
+.container {
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}

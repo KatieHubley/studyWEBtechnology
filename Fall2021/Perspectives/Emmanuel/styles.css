@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: bebas-neue-by-fontfabric, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	background-image: url("images/convertedseamlessbackground.svg");
+	background-size: 50%;
+	background-color: rgba(3,10,38,0.50);
+}
+
+.container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(18,37,113,0.20);
+}
+
+header {
+	background-color: darkcyan;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+nav a:link {
+	text-transform: uppercase;
+	color: black;
+	font-size: 120%;
+	text-decoration: none;
+	padding-right: 20px;
+}
+
+.column1 {
+	background-color:darkcyan;
+	width: 48%;
+	float: left;
+	font-size: 300%;
+}
+
+blockquote {
+	
+}
+
+.column2 {
+	background-color:darkcyan;
+	width: 48%;
+	float: left;
+	padding: 2%;
+}
+.clearfloat {
+	clear: both;
+}
+.column2 img {
+	width: 70%;
+	height: auto;
+	padding-left: 18%;
+}
+.images {
+	/*background-color:blue;*/
+}
+
+.world {
+	font-weight: bold;
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	line-height: .9em;
+}
+
+
+.imagecontainer img {
+	width: 100%;
+	height: auto;
+}
+
+footer {
+	background-color:antiquewhite;
+}
+
+h1 {
+	font-family: bely-display, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 8vw;
+}

@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	
+	background-image: url("images/background_2.svg");
+	background-size: 120%;
+	background-position: center;
+	background-blend-mode:color-burn;
+	
+}
+
+
+.container{
+	
+	width: 96%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:rgba(160,162,176,0.60);
+	
+}
+header{
+	
+	text-align: center;
+	color: rgba(232,225,218,1.00);
+	padding-bottom: 10px;
+	
+}
+
+nav a:link {
+	
+	color:rgba(16,12,12,1.00);
+	font-weight: 500;
+	font-size: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
+
+}
+
+a:link {
+	
+	color:rgba(219,147,46,1.00);
+	font-weight: 500;
+	
+}
+.column1{
+	
+	
+	width: 48%;
+	float: left;
+	font-size: 300%;
+	
+	
+}
+
+.column1 blockquote{
+	
+	font-family: smoothy,sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 130%;
+	text-align:center;
+	color: rgba(47,52,50,1.00)
+	
+}
+
+.column1 p{
+
+	font-family: graphie, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40px;
+	text-align: center;
+	color: aliceblue;
+}
+.column2{
+	
+	font-family: graphie, sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 20px;
+	text-align: center;
+	width: 48%;
+	float: left;
+	padding: 2%;
+	
+}
+
+.column2 p{
+	
+	font-family: graphie, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-left:auto;
+	margin-right: auto;
+	color: antiquewhite;
+	
+}
+.column2 img{
+	
+	
+	width: 30%;
+	height: auto;
+	margin-left:auto;
+	margin-right: auto;
+	
+}
+
+clearfloat{
+	
+	clear: both;
+	
+}
+
+.world{
+	
+	color:rgba(191,112,59,1.00);
+	font-weight: 600;
+	display: block;
+	text-transform: uppercase;
+	
+}
+
+.images{
+	
+	
+}
+.imagecontainer{
+	
+	
+	width: 30%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	float:left;
+	text-align: center;
+
+	
+
+}
+
+footer {
+	
+	clear: both;
+	text-align: center;
+	
+}
+
+h1{
+	
+	font-family: junegull, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 12vw;
+	margin: 0;
+	text-transform: uppercase;
+	
+}

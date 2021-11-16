@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+body{
+	font-family:Cambria;
+	font-style: normal;
+	background-image: url( "images/pexels-photo-3695238.jpeg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-color: blueviolet;
+	background-blend-mode: screen;
+}
+header {
+	background-color: rgba(226,181,240,1.00);
+	
+}
+h1{
+	font-family: 'Irish Grover', cursive;
+	text-align:center;
+}
+h2{
+	
+}
+nav a:link{
+	font-family:Baskerville;
+	text-decoration: none;
+	font-size:300%;
+	margin:30px;
+	color:rgba(115,57,123,1.00);
+	text-align:center;
+}
+a{
+	text-decoration:none;
+	text-align:center;
+}
+blockquote{
+	font-family:Baskerville;
+	font-size:400%;
+}
+nav{
+	text-align:center;
+}
+p{
+	font-family: Baskerville;
+	margin-left:20px;
+}
+footer{
+	font-size:140%;
+	color: white;
+	background-color: blueviolet;
+}
+.container{
+	font-family:Teko;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+.container h1{
+	font-size:650%;
+}
+.container nav {
+	
+}
+.column1{
+	background-color: rgba(98,36,185,1.00);
+	color:white;
+	float:left;
+	margin:10px;
+	background-size: auto;
+}
+.column1 img{
+	width:48%;
+	float:left;
+}
+.column1 p{
+	font-size:150%;
+}
+.column2{
+	background-color: rgba(115,57,123,1.00);
+	font-size:120%;
+	width:48%;
+	float:left;
+	margin-left:150px;
+	margin-top:20px;
+}
+.column2 img{
+	width:100%;
+	height:auto;
+	align-content: center;
+}
+.column2 p{
+	color:white;
+	font-size:110%;
+}
+.column2 a:link{
+	color:white;
+	font-style:italic;
+}
+.clearfloat{
+	clear:both;
+}
+.images{
+	background-color: rebeccapurple;
+	text-align:center;
+	display:block;
+	background-image:url("images/pexels-photo-247676.jpeg");
+	background-blend-mode: screen;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.imagebottom{
+	background-color: darkviolet;
+}
+.imagecontainer img{
+	float:left;
+	width:30%;
+	height:auto;
+	margin-left:37px;
+	margin-top:20px;
+}

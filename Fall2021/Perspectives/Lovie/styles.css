@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	
+	font-family: chennai, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 3vw;
+	background-image: url("Images/dreamstime_98856757.svg");
+	background-repeat: no-repeat;
+	background-size: 300%;
+
+}
+
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#C3D9E0
+}
+
+header {
+	background-color:#C3D9E0;
+}
+
+nav a:link {
+	text-transform: uppercase;
+	color:#000757;
+	font-size: 100%;
+	text-decoration:none;
+	padding-left: 30px
+}
+
+a:link {
+	color:darkblue;
+}
+.column1 {
+	background-color:#C3D9E0;
+	width: 45%;
+	float: left;
+	font-size: 200%;
+}
+
+.column1 p {
+	font-size: 70%;
+	text-align: center;
+}
+
+.column2 {
+	background-color:#C3D9E0;
+	width: 45%;
+	float: right;
+}
+
+.column2 {
+	height: auto;
+	padding: 5%;
+	font-size: 68%
+}
+
+.clearfloat {
+	clear: both;
+}
+
+.images {
+	background-color:#C3D9E0
+}
+
+.world {
+	font-weight: bold;
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	color:#000757
+}
+
+.imagecontainer {
+	width: 31.33%;
+	float: left;
+	padding: 1%;
+}
+
+.imagecontainer img {
+	width: 100%;
+	height: auto;
+}
+
+h1 {	
+	font-family: bressay-devanagari, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 10vw;
+	margin: 0px;
+	margin-left: 5%;
+
+}
+
+footer {
+	background-color:#C3D9E0;
+	clear: both;
+	font-size: 60%;
+
+}
+	
+	

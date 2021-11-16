@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+body{background-color:black;
+	background-image:url("images/pexels-burst-373965 (1).jpg");
+	background-size:cover;
+	background-position:bottom;
+	background-attachment: fixed;
+	color:white;
+	text-align: center;
+	font-family: 'Farro', sans-serif;
+	
+}
+h1{
+	font-family: "Fjalla One", sans-serif;
+	/*font-family:"Road Rage",cursive;*/
+	display:inline-block;
+	padding:1em;
+	/*float:left;*/
+	font-size:100px;
+	color:black;
+}
+nav{
+	display:inline-block;
+	background-color:rgba(0,0,0,0.40);
+	padding:1em;
+}
+nav a:link{
+	padding:.25em;
+	color:white;
+	font-size: 20px;
+	font-weight:bold;
+	text-decoration: none;
+	font-family: "Fjalla One", sans-serif;
+}
+nav a:hover{
+	color:rgba(232,118,33,1.00);
+}
+nav a:visited{
+	color:rgba(56,154,255,1.00);
+}
+a:link{
+	color:rgba(232,118,33,1.00);
+}
+a:hover{
+	color:rgba(0,134,246,1.00);
+}
+/*.container{
+	
+	
+}*/
+.imagecontainer{
+	background-color:rgba(0,0,0,0.60);
+	padding:1em;
+	/*height:1000px;*/
+}
+
+.imagecontainer img{
+	padding:.25em;
+
+}
+
+.column1{
+	float:left;
+	width:50%;
+	font-size: 75px;
+	font-family:"Road Rage",cursive;
+	/*padding: 1em;*/
+	color:white;
+	
+}
+.column1 p{
+	font-size: 70px;
+}
+
+.column2{
+	float:left;
+	width:50%;
+	/*padding: 1em;*/
+	
+}
+.column2 p{
+	font-size: 15px;
+}
+p{
+	font-size: 18px;
+}
+
+
+
+
+

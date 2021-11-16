@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin: 0; padding: 0;}
+ 
+
+.top{ 
+	text-align: center; 
+	color: white; 
+	font-family:'Raleway', sans-serif;
+	font-size: 6em;
+	font-weight:bold;
+
+	padding: 50px;
+}
+
+.quote{
+	padding-top: 9em;
+	text-align: center;
+	color: white;
+	font-family:'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight:normal;
+}
+
+.radiohead {
+	text-align: center;
+	font-family:'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight:lighter;
+	color: white;
+}
+/****************************
+        NAVIGATION 
+*****************************/
+.nav{
+	padding-top: 25px;
+	text-align:center;
+	font-family:'Raleway', sans-serif;
+}
+
+.nav a {
+    margin-right: 10px;
+}
+
+nav a:link, nav a:visited {font-family:'Raleway', sans-serif; font-weight:bold; font-size: 20px; color:white; text-decoration:none;}
+
+nav a:hover, nav a:focus, nav a:active {color:gray;}
+/*******************************
+HERO IMAGE & TEXT USING FLEX BOX
+********************************/
+/* Indec Page Hero*/
+.hero {
+  height:100vh;
+  background-image: url("images/Hero.png");
+  background-position:center;
+background-size: contain;
+  background-repeat: no-repeat;
+	background-color: #161616;
+}
+/* MAIN USING CSS GRID SET UP*/
+.wrapper{
+ align-content: center;
+ padding-top: 25px;
+ text-align: center;
+font-family:'Raleway', sans-serif;
+}
+.img{
+position: relative;
+margin-left: 40%;
+text-align: center;
+max-width: 20%;
+height: auto;
+}
+
+button {
+color: white;
+background-color: #161616;
+padding: 10px;
+border: none;
+border-radius: 15px;
+font-size:20px;
+font-family:'Raleway', sans-serif;
+width: 25%;
+text-align: center;
+	
+}
+ 
+p { padding: 15px;}
+.button:hover {background-color:gray;}
+
+/****************************
+       Flex box photo grid
+****************************/
+
+.flex-grid-thirds {
+  display: flex;
+  box-sizing: border-box;
+  justify-content:space-around;
+  background-color: #161616;
+  padding-bottom: 20px;
+  padding-top: 20px;
+	
+}
+.flex-grid-thirds .col {
+  width: 25%;
+box-sizing: border-box}
+
+.flex-grid { 
+  margin: 0 0 0px 0;
+box-sizing: border-box;
+}
+.col {
+  padding: 0px;
+}
+
+/*----------------------
+  CSS GRD FOOTER DETAILS
+-----------------------*/
+.bottom{grid-area: footer; background-color:#1f1f1f; height: 25px; text-align: center; padding: 0px; font-family: 'Raleway', sans-serif; color: white;}
+
+.bottom h3 {font-weight: lighter;}

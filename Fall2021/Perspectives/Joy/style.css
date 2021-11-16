@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{margin: 0%;
+	background-image:url("images/music background [edit].svg");
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 85%;
+	font-family: 'Barlow', sans-serif;
+}
+
+.main{
+	left:0;
+	margin: 42.5% 0% 0% 15%;
+	width:73.8%;
+	position: absolute;
+	/*display: inline-block;*/
+	background-color: whitesmoke;
+	padding:5em;
+	
+}
+
+header{
+	background-color:rgba(44,44,44,1.00);
+	width:15%;
+	margin:0;
+	position: fixed;
+	left: 0;
+	top:0;
+	height:100%;
+	
+	
+}
+
+h1{
+	float: left;
+	width: 50%;
+	font-size: 300%;
+	line-height: 1%;
+	font-style: italic;
+	margin: 5%;
+	padding:1em 1em 0em 1em;
+	animation: color-change 5s infinite;
+	
+	
+}
+
+@keyframes color-change{
+	0%{color:#CF2224; }
+	10%{color:#CF2224; }
+	20%{-webkit-text-fill-color: transparent;  -webkit-background-clip:text;  background-image: url("images/abstract_colors_resize.png"); background-size: 150%; }
+	40%{-webkit-text-fill-color:transparent; -webkit-background-clip:text; background-image:url("images/checkered_texture_resize.png");
+	background-size: 150%}
+	60%{-webkit-text-fill-color:transparent; -webkit-background-clip:text; background-image:url("images/neon_green.png");
+	background-size: 150%}
+	80%{-webkit-text-fill-color:transparent; -webkit-background-clip:text; background-image:url("images/negative_space_texture_resize.png");
+	background-size: 150% }
+	100%{-webkit-text-fill-color:transparent; -webkit-background-clip:text; background-image:url("images/neon_yellow.png");
+	background-size: 150%}
+	
+}
+
+nav{
+	float: left;
+	/*background-color:aqua;*/
+	width: 8%;
+	clear:both;
+	line-height:2em;
+	font-size: 145%;
+	color: white;
+	/*margin:0% 0% 5% 5%;*/
+	letter-spacing:.2em;
+	margin: 0% 5%;
+	padding:0em 2.5em;
+}
+
+h2{
+	font-size: 95%;
+	margin-bottom: 2%;
+}
+
+social a:link{
+	text-decoration: none;
+	color: white;
+	
+}
+
+nav a:link{
+		text-decoration: none;
+		color: white;
+}
+
+nav a:hover{
+	text-decoration: line-through;
+}
+
+nav a:visited{
+	color:rgba(239,0,4,1.00)
+}
+
+.column1{
+	/*clear: both;*/
+	float:right;
+	width: 40%;
+	font-size: 170%;
+	margin: 0% 5% 0% 0%;
+	color:white;
+	background-color: rgba(0,0,0,0.62);
+	position: fixed;
+	right:10%;
+	top:55%;
+}
+
+.column2{
+	clear: both;
+}
+
+.column2 img{
+	float:left;
+	width: 20%;
+	margin:0%;
+	padding: 0em 2em;
+
+}
+
+.para{
+	float:left;
+	width: 70%;
+	margin:0;
+	line-height: 200%;
+	text-align: left;
+}
+
+.para em{font-size: 150%;}
+
+.para a:link{
+	
+	text-decoration: none;
+	color:rgba(89,89,89,1.00);
+}
+
+.para a:hover{
+	
+	color:rgba(98,54,114,1.00);
+}
+
+.images{
+	
+	clear: both;
+}
+
+.gallery{
+	margin: 6.5%;
+}
+table{
+	width:85%;
+	overflow: hidden;
+	border-spacing: 30px;
+}
+
+th{
+	height:375px;
+	overflow: hidden;
+}
+
+.cover{
+	background-color: whitesmoke;
+
+}
+.imagecontainer{
+	height:30em;
+	width:100%;
+	/*overflow: hidden;*/
+}
+
+.imagecontainer img {
+	width:100%;
+	height:30em;
+	transform-origin:50% 50%;
+	transition:.5s ease-in-out;
+	
+}
+
+.imagecontainer img:hover{
+	
+	transform: scale(1.1);
+	width:100%;
+	height:30em;
+}
+
+footer
+{
+	background-color: rgba(44,44,44,1.00);
+	margin-top:145%;
+	padding: 5%;
+	color:white;
+	width:75%;
+	height:5em;
+	left:15%;
+	position:absolute;
+	
+}

@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: darkseagreen;
+}
+
+.container {
+	background-color: #98fb98;
+}
+
+h1 {
+	font-family: 'EB Garamond', serif;
+	text-align: center;
+	font-size: 500%;
+	font-weight: normal;
+	line-height: 2em;
+	margin: 0;
+	background-color: mintcream;
+}
+
+nav {
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 1.5em;
+	color: green;
+	background-color: seagreen;
+	width: 100%;
+}
+	
+nav a {
+	text-decoration: none;
+}
+	
+nav a:link {
+	color: lightgreen;
+}
+	
+nav a:hover {
+	color: white;
+}
+	
+nav a:visited {
+	color: palegreen;
+}
+
+blockquote {
+	font-family: 'Bitter', serif;
+	font-family: 'EB Garamond', serif;
+}
+
+.column1 {
+	width: 40%;
+}
+
+.column2 {
+	width: 40%;
+}
+
+p {
+	font-family: 'Bitter', serif;
+}
+
+.column2 a {
+	color: green;
+	text-decoration: none;
+}
+
+.column2 a:hover {
+	color: rgb(9, 121, 105);
+}
+
+.column2 a:visited {
+	color: palegreen;
+}
+
+footer {
+	font-family: 'Bitter', serif;
+	text-align: center;
+}
