@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header {
+	padding-bottom: 15px;
+}
+h1 {
+	font-family: adobe-heiti-std, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 4vw;
+	letter-spacing: 1.5px;
+	color:rgba(150,69,3,1.00);
+	padding-top: 2%;
+	margin: auto;
+}
+header a:link{
+	text-decoration: none;
+	padding-top: 5%;
+}
+.nav {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav a:link {
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
+	font-size: 1vw;
+	font-weight:100;	
+	display:inline-block;
+	margin-right: 7%;
+	margin-left:10%
+}
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+hr {
+	width: 70%;
+	size: 1;	
+}
+.introduction {
+	text-align: center;
+	padding-bottom: 25px;
+	padding-top: 5px;	
+}
+h2 {
+	font-size: 2vw;
+	font-style: normal;
+}
+p {
+	font-size: 1.5vw;	
+}
+.container {
+	width: 92%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.clearfloat {
+	clear: both;
+}
+.gallery {
+	padding-bottom: 40px;
+}
+.gallery2 {
+	padding-top: 35px;
+	padding-bottom: 40px;
+}
+.imagecontainer {
+	width: 32%;
+	float: left;
+	padding-right: 4px;
+	padding-bottom: 4px;
+}
+.imagecontainer2{
+	width: 32%;
+	float:left;
+	padding-right: 4px;
+	padding-bottom: 6px;
+}
+.imagecontainer3{
+	width: 32%;
+	float:left;
+	margin-left: auto;
+	margin-right: auto;
+}
+.imagecontainer img {
+	width: 98%;
+	hight: auto;
+	padding:2px;	
+}
+.imagecontainer2 img {
+	width: 98%;
+	hight: auto;
+	padding:2px;	
+}
+.imagecontainer3 img {
+	width: 98%;
+	hight: auto;
+	padding:2px;	
+}
+.AboutContainer{
+	padding-top: 20px;
+	padding-bottom: 10%;
+}
+.AboutTitle{
+	padding-bottom: 20px;
+}
+.AboutTitle h2{
+	color:rgba(150,69,3,0.8);
+	font-weight: 500;
+}
+.AboutMe{
+	width: 48%;
+	float: left;
+	padding-right: 2px;
+}
+.ImgAboutMe img{
+	width: 85%;
+	height: auto;
+}
+.AboutMe p{
+	font-family: ff-tisa-web-pro, serif;
+	font-weight: 100;
+	font-style: normal;
+	padding-top: 20px;
+	font-size: 1.5vw;
+}
+.AboutContact{
+	width: 98%;
+	float:left;
+	padding: 2px;
+}
+.contact{
+	width: 48%;
+	float:left;
+}
+.WorkTogether{
+	float: right;
+	padding-right: 27%;
+	padding-top: 5px;
+	width: 25%;
+}
+.WorkTogether .btn{
+	height: 50px;
+	width: 250px;
+	font-size: 14px;
+}
+.contact-form{
+	padding-top: 400px;
+	padding-bottom: 10%;
+}
+.contact-box{
+	width: 500px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-230px, -165px);
+	position: absolute;
+}
+form{
+	margin:30px;
+}
+.input-field{
+	width: 400px;
+	height: 40px;
+	margin-top: 20px;
+	padding-left: 10px;
+	border: 1px solid #777;
+	border-radius: 12px;
+	outline: none;
+}
+.textarea-field{
+	height: 150px;
+	padding-top: 10px;
+}
+.btn{
+	border-radius: 10px;
+	color:#fff;
+	margin-top: 18px;
+	padding: 10px;
+	background-color:rgba(29,45,99,1.00);
+	border: none;
+	font-size: 12px;
+	cursor:pointer;
+}
+.thanks {
+	text-align: center;
+	padding-top: 10%;
+	padding-bottom: 20%;
+}
+footer  {
+	text-align: center;
+}
+footer p{
+	font-size: 1vw;
+}
+.icon1 {
+	width:30%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.icons {
+	width:33.33%;
+	float: left;
+	margin-left:0;
+	margin-right:0;	
+}
+.icons img{
+	width:25%;
+	height: auto;	
+}
+.clearfloat {
+	clear: both;
+}

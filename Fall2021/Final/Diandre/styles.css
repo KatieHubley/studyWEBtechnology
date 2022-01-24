@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0; padding: 0;}
+
+/******** Header & Nav ***********/
+
+  .logo {
+    -webkit-box-ordinal-group: 2;
+            order: 1;
+    text-align: center;
+	  
+  }
+ 
+  .item {
+    text-align: center;
+}
+
+header {
+	padding: 20px 0;
+	background-color: #763177;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	text-transform:uppercase;
+}
+.container {
+  display: flex;
+  align-items: center;
+ justify-content: center;
+}
+
+
+.item {
+  color:white;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 30px 25px ;
+}
+
+.item:hover{
+    color: white;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.item:nth-of-type(n+3) {
+  -webkit-box-ordinal-group: 3;
+	order: 2;
+}
+/******** First Section ***********/
+
+.float-container-1 {
+  background: #ba6bbb;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  padding: 35px 0;
+
+	}
+h1 {font-size: 3.5em;
+	font-family: 'Meow Script', cursive;
+}
+
+h2 {
+	 font-family: sans-serif;
+	margin: 10px;
+}
+
+p {
+	font-family: sans-serif;
+	padding-top: 15px;
+}
+
+.button-A {  
+ background-color: white; /* Green */
+  border: none;
+  color: #763177;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 25px; 
+}
+
+.button-A:hover{
+	background-color: #763177;
+	color: white;
+}
+.img {
+	max-width: 100%;
+}
+
+.text{
+text-align: left;	
+	color: white;
+	padding-left: 20px;
+}
+
+/******** Skate Section ***********/
+
+.float-container-2{
+  background: #dab5e8;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 210px;
+}
+.text-2{
+    text-align: left;	
+	color: #763177;
+	padding-left: 20px;
+	max-width: 40%;
+	min-width: 40%;
+}
+
+.img-2{
+	
+    padding-top: 5%;  
+    position: sticky;
+    z-index: 1;
+}
+/******** Wave Section ***********/
+	
+.wave-container-1 {
+  position: relative;
+  background: #dab5e8;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  height: 10%;
+  text-align: left;	
+ color: white;
+ z-index: 0;
+}
+
+.wave-container-1 svg {
+
+  display: block;
+}
+/******** Skills Section ***********/
+.flex-grid-thirds {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  z-index: 2;
+  position: sticky;
+  margin-top: -100px;
+  background: efddf6;
+}
+.flex-grid-thirds .col {
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.flex-grid { 
+ margin: 0;
+box-sizing: border-box;
+}
+.col {
+  padding: 0px;
+ text-align: center;
+}
+
+.col p {
+	
+text-align: center;	
+}
+
+.groove {
+	
+	text-align-last: center;
+	padding: 40px 0;
+	color: #763177;
+}
+/*** Contact Form ***/
+
+.float-container-3 {
+  background: #ba6bbb;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding: 35px 0;
+}
+
+
+
+input[type=text], select{
+  width:70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+ 
+}
+
+input[type=submit] {
+  background-color: #dab5e8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+	
+}
+
+input[type=submit]:hover {
+  background-color: #763177;
+}
+
+ 
+ 
+ 
+/***** Footer**/
+
+.footer{
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	background:#763177; 
+	padding: 10px;
+}
