@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+font-family: font-family: basic-sans,sans-serif;
+font-weight: 400;
+font-style: italic;
+background-color: chocolate;
+	background-image:url("../brownbackground.svg")
+	
+}
+.container{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav { 
+	text-align: center;
+}
+
+a:link { 
+	color: rgba(123,17,19,1.00); 
+	
+}
+
+header {
+	background-color: bisque
+}
+
+.icon {
+	width: 40%;
+	display: block;
+	margin: 0px auto;
+		
+}
+
+
+.column1 {
+	width: 100%;
+	background-color: white;
+	float: right;
+}
+
+.column2 {
+	width: 50;
+	background-color: burlywood;
+	float: left;
+}
+
+.images {
+	background-color: saddlebrown;
+
+}
+
+footer {
+	background-color: sandybrown;
+}
+
+h1 {
+	font-family: condor, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+	font-size: 12vw;
+    color: brown;
+	margin: 0;
+	text-align: center;
+	
+
+}
+
+
+.imagecontainer img {
+	width: 100%;
+	height: auto;
+}
+
+.image {
+	background-color: antiquewhite;
+	clear: both;
+}
+
+.imagecontainer {
+	width: 33%;
+	float: left;
+	
+}
+
+.clearfloat {
+	clear: both;
+}
+blockquoate {
+	font-family: basic-sans, sans-serif;
+
+    font-weight: 700;
+
+    font-style: italic;
+	color: rgba(119,23,24,1.00);
+	font-size: 130%;
+	margin: 0;
+}

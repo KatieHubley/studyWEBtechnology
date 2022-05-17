@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/* CSS Document */
+
+    
+body {
+	margin: 0;
+	background-color:gray;
+	background-size:100%;
+	}
+
+header {
+	background-color: #435690;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* search box */
+form.search input[type=text] {
+	
+  padding: 10px;
+  font-size: 5px;
+  border: 1px solid grey;
+  float: left;
+  width: 30%;
+  background: #f1f1f1;
+}
+ 
+/* search bottom */
+form.search button {
+  float: left;
+  width: 10%;
+	height: 9%;
+  padding: 7px;
+  background: #5A71B6;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* prevent doble frame */
+  cursor: pointer;
+}
+ 
+form.search button:hover {
+  background: #405491;
+}
+ 
+/* no floading */
+form.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container{
+			width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+			background-color:rgba(247,247,255,0.60);
+			 }
+
+nav { 
+	text-align: center;
+	font-family: Aviano Future, sans-serif; 
+}
+
+nav a:link { 
+	color: whitesmoke;
+	text-decoration: none;  
+	padding: 10px;
+	font-size: 100%;
+	magin:50px;
+	width: 30%;
+}
+
+/* sub-title, not sure ⬇️*/
+h2 {
+	background-size: 100%;
+	height: 100px;
+	weight: 100px;
+	/*text*/
+	font-family: aviano-future, sans-serif;
+	font-weight:700;
+	font-style:italic;
+	text-align:center;
+	margin-bottom:1px;
+	color: whitesmoke;
+}
+
+/* h3 game recommend */
+h3 {
+	height: 30px;
+	weight: auto;
+	/*text*/
+	font-family: aviano-future, sans-serif;
+	font-weight:400;
+	font-style:italic;
+	text-align:left;
+	margin-top:15px;
+	margin-bottom: 3px;
+	margin-left:10px;
+	color:#435690;
+}
+
+h4 {height: 30px;
+	weight: auto;
+	/*text*/
+	font-family: aviano-future, sans-serif;
+	font-weight:400;
+	font-style:italic;
+	text-align:left;
+	margin-top:15px;
+	margin-bottom: 3px;
+	margin-left:10px;
+	color:aliceblue;
+}
+
+.column2 {
+	background-color:#435690;
+	height: auto;
+	width: 100%;
+	text-align: left;
+	padding-top:0px;
+}
+.column2 img {width:50%;}
+
+/* Parent Container */
+.content_img{
+ position: relative;
+ width: 90%;
+ height: 150%;
+ float: center;
+ margin-left: 10px;
+}
+
+/* Child Text Container */
+.content_img div{
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 10px;
+ font-family: sans-serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+.content_img:hover{
+ cursor: pointer;
+}
+
+.content_img:hover div{
+ width: 90%;
+ padding: 8px 15px;
+ visibility: visible;
+ opacity: 0.7; 
+}
+
+.column {
+	float: left;
+	width:50%;
+	}
+
+.contect {width: 50%;
+	align: center;
+	}
+
+/* Head Cover*/
+img{
+	width:100%;
+	height:auto;
+}
+
+footer {
+	background-color:#435690;
+	text-align:left;
+	margin-top:0;
+	font-family: Arial;
+	font-size: .5vw;
+	color:antiquewhite;
+}
+
+

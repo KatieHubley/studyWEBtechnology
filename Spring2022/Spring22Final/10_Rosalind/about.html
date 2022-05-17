@@ -1,0 +1,295 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>About</title>
+<link rel="stylesheet" href="https://use.typekit.net/gct8zbs.css">
+<!--Link to the universalstylesheet for heading and footer-->
+<link href="styles.css" rel="stylesheet" type="text/css">	
+<!--Stylesheet for this specific page-->
+<style>
+/*This is for formatting the wide screen*/
+/*This hides the small graphic*/
+.smallgraphic {
+	display: none;
+}
+/*This is for formatting the graphic*/
+.widegraphic img {
+	width: 100%;
+}
+.widegraphic {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+}
+/*This is for formatting the text over the graphic*/
+.aboutmebox {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+.textbox {
+	color: hsla(37,100%,95%,1.00);
+}
+.textbox h1 {
+	position: absolute;
+	text-align: center;
+	top: 20%;
+	left: 43%;
+	font-size: 4.5vw;
+}
+.textbox p {
+	position: absolute;
+	text-align: center;
+	width: 65%;
+	top: 35%;
+	left: 18%;
+	font-size: 2.5vw;
+}
+.contactbutton {
+	position: absolute;
+	top: 60%;
+	left: 40%;
+	width: 20%;
+	background-color: hsla(21,60%,15%,1.00);
+	color:hsla(32,18%,82%,1.00);
+	font-family: contralto-big, sans-serif;
+	font-weight: 300;
+	font-size: 3vw;
+	padding: 15px 8px;
+	border: none;
+	cursor: pointer;
+	border-radius: 2px;
+}
+.contactbutton:hover {
+	color: rgba(60,31,15,1.00);
+	background-color: hsla(37,100%,95%,1.00);
+}
+.contactbox h2 {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	font-size: 4.5vw;
+}
+.contactbox p {
+	position: absolute;
+	top: 42%;
+	left: 34%;
+	font-size: 2.3vw;
+}
+/*This is for client comments*/
+.testimonials {
+	padding: 40px 0;
+	background: #3C1F0F;
+	color: #3C1F0F;
+	text-align: center;
+	margin-top: 15%;
+}
+.inner {
+	max-width: 1200px;
+	margin: auto;
+	overflow: hidden;
+	padding: 0 20px;
+}
+.inner h1 {
+	color: rgba(255,245,229,1.00);
+}
+.border {
+	width: 160px;
+	height: 5px;
+	background: #FFF5E5;
+	margin: 26px auto;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.col {
+	flex: 33.33%;
+	max-width: 33.33%; 
+	box-sizing: border-box;
+	padding: 15px;
+}
+.testimonial {
+	background:rgba(255,248,237,1.00);
+	padding: 30px;
+}
+.testimonial img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.name {
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+
+
+
+
+/*This is for formatting the small screen*/
+@media screen and (max-width:745px) {
+	/*This is for hiding the wide screen graphic*/
+	.widegraphic {
+		display: none;
+	}
+	/*This is for displaying the small screen graphic*/
+	.smallgraphic img {
+		width: 100%;
+	}
+	.smallgraphic {
+		display: block;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10%;
+	}
+	/*This is formatting the text*/
+	.textbox h1 {
+		font-size: 5.5vw;
+		left: 41%;
+	}
+	.textbox p {
+		font-size: 3.5vw;
+		width: 55%;
+		left: 23%;
+	}
+	/*This is for formatting the button*/
+	.contactbutton {
+		top: 65%;
+	}
+	.col {
+		flex: 100%;
+		max-width: 80%;
+	}
+}	
+</style>
+
+</head>
+
+<body>
+	<div class="container">
+		<!--This is the nav bar-->
+		<div class="logo">
+			<a href="index.html"><img src="images/MainLogo.svg" alt="Logo"></a>
+		</div>
+		<nav id="hamnav">
+			<label for="hamburger">&#9776;</label>
+			<input type="checkbox" id="hamburger">
+			<div id="hamitems">
+				<a href="about.html">About</a>
+				<a href="gallery.html">Gallery</a>
+				<a href="services.html">Services</a>
+				<a href="contact.html">Contact</a>
+			</div>
+			<a href="index.html"><h1 class="textlogo">Camille Rose Photo &amp; Film</h1></a> 
+		</nav>
+		
+		<!--This div holds the text and graphic-->
+		<div class="aboutmebox">
+			<!--This is for small screens-->
+			<div class="smallgraphic">
+				<img src="images/AboutMev2.svg" alt="textbox with flowers">
+			</div>
+			<!--This is for wide screens-->
+			<div class="widegraphic">
+				<img src="images/AboutMev1.svg" alt="textbox with flowers">
+			</div>
+			<div class="textbox">
+				<h1>My Story</h1>
+				<p>Hello! I’m Camille Rose. I am a wedding and lifestyle photgrapher that has been serving the DMV area for 13 years. I specialize in natural, authenic photos that tell your unqiue love story. </p>
+				<form action="contact.html">
+					<button type="submit" class="contactbutton">Get in Touch</button>
+				</form>
+			</div>
+		</div>
+		
+		<!--This is for formatting the client comments-->
+		<div class="testimonials">
+			<div class="inner">
+				<h1>Testimonials</h1>
+				<div class="border"></div>
+				
+				<div class="row">
+					<div class="col">
+						<div class="testimonial">
+							<img src="images/Client1.jpg" alt="Photo of man">
+							<div class="name">Kelly Smith</div>
+							<p> I had my wedding photos done by Camille. My mother has some health issues and needed longer breaks. She was so kind and considerate. </p>
+						</div>
+					</div>
+					
+					<div class="col">
+						<div class="testimonial">
+							<img src="images/Client2.jpg" alt="Photo of man">
+							<div class="name">Malik Johnson</div>
+							<p>Camille is so kind and patient, even with two rowdy boys and energtic golden retrevier. I recommend her to friends and family.</p>
+						</div>
+					</div>
+					
+					<div class="col">
+						<div class="testimonial">
+							<img src="images/Client3.jpg" alt="Photo of man">
+							<div class="name">Denise Wilson</div>
+							<p>I never had professional photos done befoe. Camille is so down-to-earth and makes you feel comfortable. I will defintley use her in the future.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer>
+			<!--This div is for the social media icons to the left.-->
+			<div class="socialicons">
+				<!--This dic is for the social media title-->
+				<div class="footertitle1">
+					<p>Follow Me</p>
+				</div>
+				
+				<!--This div is for the top row of icons-->
+				<div class="iconbox1">
+					<a href="#"><img src="images/facebookicon.png" alt="Facebook icon"></a>
+					<a href="#"><img src="images/linkedinicon.png" alt="LinkedIn Icon"></a>
+					<a href="#"><img src="images/instaicon.png" alt="Instagram Icon"></a>
+					<a href="#"><img src="images/twittericon.png" alt="Twitter Icon"></a>
+				</div>
+		 	</div>
+			
+			<!--This div is for the services links to the right.-->
+			<div class="footerservices">
+				<div class="footertitle2">
+					<p>Services</p>
+				</div>
+				<!--Nav for widescreen-->
+				<div class="widenav">
+					<nav>
+						<a href="services.html#engage">Engagement</a>
+						<a href="services.html#wedding">Wedding</a>
+						<a href="services.html#family">Family</a>
+					</nav>
+				</div>
+				<!--Nav for small screens-->
+				<div class="smallnav">
+					<nav>
+						<a href="services.html#engagesmall">Engagement</a>
+						<a href="services.html#weddingsmall">Wedding</a>
+						<a href="services.html#familysmall">Family</a>
+					</nav>
+				</div>
+			</div>
+			
+			<!--This div is for the faded log that is in the middle-->
+		  	<div class="footerlogo"> 
+				<div class="footerimage">
+					<img src="images/FadedLogo.svg" alt="Flower Logo">
+				</div>
+		  	</div>
+			<p>Copyright &copy; Camille Rose Photo &amp; Film</p>
+		</footer>
+	</div>
+</body>
+</html>

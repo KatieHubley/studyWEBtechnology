@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background: url("images/LSDCo_BackgroundPattern.png");
+	background-size: cover;
+}
+
+.container {
+	background-color: rgba(255,255,255,0.85);
+}
+h1 {
+	font-family: epicursive, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 500%;
+	text-align: center;
+	color: #454545;
+	margin: 0;
+	padding: 0;
+}
+
+.logoimage {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.logoimage img {
+	margin-left: 26%;
+	margin-right: auto;
+}
+
+h3 {
+	font-family: anisette-std, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 300%;
+	text-align: center;
+	padding-top: 0;
+	margin-top: 0;
+	color: #454545;
+}
+
+nav {
+	font-family: epicursive, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 200%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 1%;
+	width: 50%;
+}
+
+nav a:link {
+	text-decoration: none;
+	text-align: center;
+	color: #806A85;
+	margin: auto;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+nav a:visited {
+	text-decoration: none;
+	color: #806A85;
+}
+
+.learnmore img {
+	margin-top: 0;
+	padding-top: 0;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+p {
+	font-family: anisette-std, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 90%;
+	text-align: center;
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer {
+	padding: 10px;
+}
+
+.social {
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+}
+
+.social img {
+	margin-left: 45%;
+	margin-right: auto;
+	padding-top: 1%;
+}

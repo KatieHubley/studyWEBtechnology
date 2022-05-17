@@ -1,0 +1,406 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Gallery</title>
+<!--Link to the main styling sheet-->
+<link href="styles.css" rel="stylesheet" type="text/css">
+<!--Link to the Adobe Fonts-->
+<link rel="stylesheet" href="https://use.typekit.net/gct8zbs.css">
+<!--This is the style for this specific page-->
+<style>
+	/*This is for formatting the engagement photos*/
+.engagementsbox {
+	width: 90%;
+	margin-left: 5%;
+}
+.engagementsbox h1 {
+	font-size: 2.4rem;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+.engagement1 img {
+	width: 100%;
+}
+.engagement2 img {
+	width: 100%;
+	margin-bottom: 14.5%;
+}
+.engagement3 img {
+	width: 100%;
+}
+.engagement1 {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+}
+.engagement2 {
+	width: 30%;
+	float: left;
+}
+.engagement3 {
+	width: 30%;
+	float: left;
+	margin-left: 5%;
+}
+.clearfloat {
+	clear: both;
+}
+
+/*This is for formatting the wedding photos*/
+.weddingbox {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: -2%;
+}
+.weddingbox h1 {
+	font-size: 2.4rem;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+.wedding1 img {
+	width: 100%;
+}
+.wedding2 img {
+	width: 100%;
+	margin-bottom: 14%;
+}
+.wedding3 img {
+	width: 100%;
+	margin-bottom: 14%;
+}
+.wedding1 {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+}
+.wedding2 {
+	width: 30%;
+	float: left;
+}
+.wedding3 {
+	width: 30%;
+	float: left;
+	margin-left: 5%;
+}
+.clearfloat {
+	clear: both;
+}
+
+/*This is for formatting the family photos*/
+.familybox {
+	width: 90%;
+	margin-left: 5%;
+}
+.familybox h1 {
+	font-size: 2.4rem;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+.family1 img {
+	width: 100%;
+	margin-bottom: 14%;
+}
+.family2 img {
+	width: 100%;
+}
+.family3 img {
+	width: 100%;
+	margin-bottom: 14%;
+}
+.family1 {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+}
+.family2 {
+	width: 30%;
+	float: left;
+}
+.family3 {
+	width: 30%;
+	float: left;
+	margin-left: 5%;
+}
+.clearfloat {
+	clear: both;
+}
+
+.minigallerycontainer {
+	display: none;
+}
+
+/*This is for small screens*/
+@media screen and (max-width:745px) {
+	.gallerycontainer {
+		display: none;
+	}
+	.minigallerycontainer {
+		display: block;
+	}
+	/*This is for formatting the engagement photos*/
+	.engagementscontainer {
+		width: 90%;
+		margin-left: 15%;
+	}
+	.engagementscontainer h1 {
+		font-size: 6vw;
+		margin-top: 5%;
+		margin-bottom: 3%;
+		margin-left: 21%;
+	}
+	.engagementcolumn1 img {
+		width: 100%;
+		margin-top: 7%;
+	}
+	.engagementcolumn2 img {
+		width: 100%;
+		margin-top: 7%;
+	}
+	.engagementcolumn1 {
+		width: 40%;
+		float: left;
+		margin-right: 3.5%;
+	}
+	.engagementcolumn2 {
+		width: 40%;
+		float: left;
+	}
+	/*This is for formatting the wedding photos*/
+	.weddingcontainer {
+		width: 90%;
+		margin-left: 14%;
+	}
+	.weddingcontainer h1 {
+		font-size: 6vw;
+		margin-top: 5%;
+		margin-bottom: 3%;
+		margin-left: 28%;
+	}
+	.weddingcolumn1 img {
+		width: 100%;
+		margin-top: 7%;
+	}
+	.weddingcolumn2 img {
+		width: 100%;
+		margin-top: 7%;
+	}
+	.weddingcolumn1 {
+		width: 40.4%;
+		float: left;
+		margin-right: 3.5%;
+	}
+	.weddingcolumn2 {
+		width: 40%;
+		float: left;
+	}
+	/*This is for formatting the family photos*/
+	.familycontainer {
+		width: 90%;
+		margin-left: 14%;
+	}
+	.familycontainer h1 {
+		font-size: 6vw;
+		margin-top: 5%;
+		margin-bottom: 3%;
+		margin-left: 33%;
+	}
+	.familycolumn1 img {
+		width: 100%;
+		margin-top: 7%;
+	}
+	.familycolumn2 img {
+		width: 100%;
+		margin-top: 7%;
+	}
+	.familycolumn1 {
+		width: 40.4%;
+		float: left;
+		margin-right: 3.5%;
+	}
+	.familycolumn2 {
+		width: 40.4%;
+		float: left;
+	}
+}	
+</style>
+
+</head>
+
+<body>
+	<div class="container">
+	<!--This is the nav bar-->
+		<div class="logo">
+			<a href="index.html"><img src="images/MainLogo.svg" alt="Logo"></a>
+		</div>
+		<nav id="hamnav">
+			<label for="hamburger">&#9776;</label>
+			<input type="checkbox" id="hamburger">
+			<div id="hamitems">
+				<a href="about.html">About</a>
+				<a href="gallery.html">Gallery</a>
+				<a href="services.html">Services</a>
+				<a href="contact.html">Contact</a>
+			</div>
+			<a href="index.html"><h1 class="textlogo">Camille Rose Photo &amp; Film</h1></a> 
+		</nav>
+		
+		<!--This holds all the images for the widescreens-->
+		<div class="gallerycontainer">
+			<!--This holds the engagement photos-->
+			<div class="engagementsbox">
+				<h1>Engagements</h1>
+				<div class="engagement1">
+					<img src="images/Engagement1.jpg" alt="Photo of couple hugging in front of trees">
+				</div>
+				<div class="engagement2">
+					<img src="images/Engagement2.jpg" alt="Photo of couple hugging in front of brick wall">
+					<img src="images/Engagement4.jpg" alt="Photo of man kissing forehead of a woman">
+				</div>
+				<div class="engagement3">
+					<img src="images/Engagement3.jpg" alt="Photo of man on one knee with ring box in front of woman">
+				</div>
+			</div>
+			
+			<br class="clearfloat">
+			
+			<!--This holds the wedding photos-->
+			<div class="weddingbox">
+				<h1>Weddings</h1>
+				<div class="wedding1">
+					<img src="images/Wedding3.jpg" alt="Photo of flower girl and ring bearer">
+				</div>
+				<div class="wedding2">
+					<img src="images/Wedding1.jpg" alt="Photo of man at wedding">
+					<img src="images/Wedding2.jpg" alt="Photo of couple in a field">
+				</div>
+				<div class="wedding3">
+					<img src="images/Wedding4.jpg" alt="Photo of couple in front of a hightop view">
+					<img src="images/Wedding5.jpg" alt="Photo of bride and bridesbraids">
+				</div>
+			</div>
+			
+			<br class="clearfloat">
+			
+			<!--This holds the family photos-->
+			<div class="familybox">
+				<h1>Family</h1>
+				<div class="family1">
+					<img src="images/Family1.jpg" alt="Photo of couple with holding a toddler">
+					<img src="images/Family2.jpg" alt="Photo of woman with baby playing in the leaves">
+				</div>
+				<div class="family2">
+					<img src="images/Family3.jpg" alt="Photo of two boys climbing on their father">
+				</div>
+				<div class="family3">
+					<img src="images/Family6.jpg" alt="Photo of couple with baby in their lap sitting on a field">
+					<img src="images/Family5.jpg" alt="Photo of man higging and kissing pregnant woman">
+				</div>
+			</div>
+		</div>
+		
+		<!--This is for small screens-->
+		<div class="minigallerycontainer">
+			<!--This holds the engagement photos-->
+			<div class="engagementscontainer">
+				<h1>Engagements</h1>
+				<div class="engagementcolumn1">
+					<img src="images/Engagement1.jpg" alt="Photo of couple hugging in front of trees">
+					<img src="images/Engagement2.jpg" alt="Photo of couple hugging in front of brick wall">
+				</div>
+				<div class="engagementcolumn2">
+					<img src="images/Engagement4.jpg" alt="Photo of man kissing forehead of a woman">
+					<img src="images/Engagement3.jpg" alt="Photo of man on one knee with ring box in front of woman">
+				</div>
+			</div>
+			
+			<br class="clearfloat">
+			
+			<!--This holds the wedding photos-->
+			<div class="weddingcontainer">
+				<h1>Weddings</h1>
+				<div class="weddingcolumn1">
+					<img src="images/Wedding3small.jpg" alt="Photo of flower girl and ring bearer">
+					<img src="images/Wedding1.jpg" alt="Photo of man at wedding">
+				</div>
+				<div class="weddingcolumn2">
+					<img src="images/Wedding2.jpg" alt="Photo of couple in a field">
+					<img src="images/Wedding4.jpg" alt="Photo of couple in front of a hightop view">
+					<img src="images/Wedding5.jpg" alt="Photo of bride and bridesbraids">
+				</div>
+			</div>
+			
+			<br class="clearfloat">
+			
+			<!--This holds the family photos-->
+			<div class="familycontainer">
+				<h1>Family</h1>
+				<div class="familycolumn1">
+					<img src="images/Family1.jpg" alt="Photo of couple with holding a toddler">
+					<img src="images/Family2.jpg" alt="Photo of woman with baby playing in the leaves">
+					<img src="images/Family6.jpg" alt="Photo of couple with baby in their lap sitting on a field">
+				</div>
+				<div class="familycolumn2">
+					<img src="images/Family3small.jpg" alt="Photo of two boys climbing on their father">
+					<img src="images/Family5.jpg" alt="Photo of man higging and kissing pregnant woman">
+				</div>
+			</div>
+		</div>
+		
+		<br class="clearfloat">
+		
+		<!--This is the footer-->
+		<footer>
+			<!--This div is for the social media icons to the left.-->
+			<div class="socialicons">
+				<!--This dic is for the social media title-->
+				<div class="footertitle1">
+					<p>Follow Me</p>
+				</div>
+				
+				<!--This div is for the top row of icons-->
+				<div class="iconbox1">
+					<a href="#"><img src="images/facebookicon.png" alt="Facebook icon"></a>
+					<a href="#"><img src="images/linkedinicon.png" alt="LinkedIn Icon"></a>
+					<a href="#"><img src="images/instaicon.png" alt="Instagram Icon"></a>
+					<a href="#"><img src="images/twittericon.png" alt="Twitter Icon"></a>
+				</div>
+		 	</div>
+			
+			<!--This div is for the services links to the right.-->
+			<div class="footerservices">
+				<div class="footertitle2">
+					<p>Services</p>
+				</div>
+				<!--Nav for widescreen-->
+				<div class="widenav">
+					<nav>
+						<a href="services.html#engage">Engagement</a>
+						<a href="services.html#wedding">Wedding</a>
+						<a href="services.html#family">Family</a>
+					</nav>
+				</div>
+				<!--Nav for small screens-->
+				<div class="smallnav">
+					<nav>
+						<a href="services.html#engagesmall">Engagement</a>
+						<a href="services.html#weddingsmall">Wedding</a>
+						<a href="services.html#familysmall">Family</a>
+					</nav>
+				</div>
+			</div>
+			
+			<!--This div is for the faded log that is in the middle-->
+		  	<div class="footerlogo"> 
+				<div class="footerimage">
+					<img src="images/FadedLogo.svg" alt="Flower Logo">
+				</div>
+		  	</div>
+			<p>Copyright &copy; Camille Rose Photo &amp; Film</p>
+		</footer>
+	</div>
+</body>
+</html>

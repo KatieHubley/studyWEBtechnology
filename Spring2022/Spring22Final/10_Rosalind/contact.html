@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact</title>
+<!--Link to the Adobe Web Project-->
+<link rel="stylesheet" href="https://use.typekit.net/gct8zbs.css">
+<!--Link to the main stylesheet-->
+<link href="styles.css" rel="stylesheet" type="text/css">
+<!--Style for the contact page-->
+<style>
+	/*This is for formatting the input boxes*/
+	input[type=text], select, textarea {
+		width: 100%;
+		padding: 15px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+		margin-top: 6px;
+		margin-bottom: 16px;
+		resize: vertical;
+	}
+	/*This is for styling the submitt button*/
+	form a:link {
+		background-color: rgba(141,109,57,1.00);
+		color: rgba(255,245,229,1.00);
+  		padding: 12px 20px;
+ 		border: none;
+  		border-radius: 2px;
+  		cursor: pointer;
+		text-decoration: none;
+	}
+	form a:hover {
+		background-color: #FFF5E5;
+  		color: rgba(60,31,15,1.00);
+	}
+	form a:visted {
+		background-color: rgba(141,109,57,1.00);
+		color: rgba(255,245,229,1.00);
+	}
+	/*This is for formatting the background of the form*/
+	.contactformcontainer {
+		color: rgba(255,245,229,1.00);
+		border-radius: 2px;
+		background-color: rgba(60,31,15,1.00);
+		padding: 20px;
+		margin-top: 5%;
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+	.clearfloat {
+		clear: both;
+	}
+	/*This is for styling the heading*/
+	.contactformcontainer h1 {
+		text-align: center;
+		font-size: 4vw;
+	}
+	label {
+		font-size: 2rem;
+	}
+	/*This is for making adjustments to the fonts on smaller screens*/
+	@media screen and (max-width:750px) {
+		/*This is for styling the heading*/
+		.contactformcontainer h1 {
+			font-size: 8vw;
+		}.contactformcontainer {
+			margin-left: 5%;
+			margin-right: 5%;
+		}
+		label {
+			font-size: 1.1rem;
+		}
+	}
+</style>
+</head>
+
+<body>
+	<div class="container">
+		<!--This is the logo and nav bar-->
+		<div class="logo">
+			<a href="index.html"><img src="images/MainLogo.svg" alt="Logo"></a>
+		</div>
+		
+		<nav id="hamnav">
+			<label for="hamburger">&#9776;</label>
+			<input type="checkbox" id="hamburger">
+			<div id="hamitems">
+				<a href="about.html">About</a>
+				<a href="gallery.html">Gallery</a>
+				<a href="services.html">Services</a>
+				<a href="contact.html">Contact</a>
+			</div>
+			<a href="index.html"><h1 class="textlogo">Camille Rose Photo &amp; Film</h1></a> 
+		</nav>
+		
+		<br class="clearfloat"> 
+		
+		<!--This is the contact form-->
+		<div class="contactformcontainer">
+			<h1>Tell Us Your Story</h1>
+			<form>
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your name...">
+				<label for="lname">Last Name</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name...">
+				<label for="email">Your Email</label>
+				<input type="text" id="email" name="email" placeholder="Your email...">
+				<label for="services">What can we do for you?</label>
+				<select id="services" name="services">
+					<option value="engagement">Engagement</option>
+					<option value="wedding">Wedding</option>
+					<option value="family">Family</option>
+				</select>
+				<label for="date">Desired Date</label>
+				<input type="text" id="date" name="date" placeholder="Date...">
+				<label for="location">Desired Location</label>
+				<input type="text" id="location" name="location" placeholder="Your location...">
+				<label for="subject">Subject</label>
+				<textarea id="subject" name="subject" placeholder="Tell us a little about you..."></textarea>
+				<a href="#">Submit</a>
+			</form>
+		</div>
+		
+		<!--This is the footer-->
+		<footer>
+			<!--This div is for the social media icons to the left.-->
+			<div class="socialicons">
+				<!--This dic is for the social media title-->
+				<div class="footertitle1">
+					<p>Follow Me</p>
+				</div>
+				
+				<!--This div is for the top row of icons-->
+				<div class="iconbox1">
+					<a href="#"><img src="images/facebookicon.png" alt="Facebook icon"></a>
+					<a href="#"><img src="images/linkedinicon.png" alt="LinkedIn Icon"></a>
+					<a href="#"><img src="images/instaicon.png" alt="Instagram Icon"></a>
+					<a href="#"><img src="images/twittericon.png" alt="Twitter Icon"></a>
+				</div>
+		 	</div>
+			
+			<!--This div is for the services links to the right.-->
+			<div class="footerservices">
+				<div class="footertitle2">
+					<p>Services</p>
+				</div>
+				<!--Nav for widescreen-->
+				<div class="widenav">
+					<nav>
+						<a href="services.html#engage">Engagement</a>
+						<a href="services.html#wedding">Wedding</a>
+						<a href="services.html#family">Family</a>
+					</nav>
+				</div>
+				<!--Nav for small screens-->
+				<div class="smallnav">
+					<nav>
+						<a href="services.html#engagesmall">Engagement</a>
+						<a href="services.html#weddingsmall">Wedding</a>
+						<a href="services.html#familysmall">Family</a>
+					</nav>
+				</div>
+			</div>
+			
+			<!--This div is for the faded log that is in the middle-->
+		  	<div class="footerlogo"> 
+				<div class="footerimage">
+					<img src="images/FadedLogo.svg" alt="Flower Logo">
+				</div>
+		  	</div>
+			<p>Copyright &copy; Camille Rose Photo &amp; Film</p>
+		</footer>
+	</div>
+</body>
+</html>

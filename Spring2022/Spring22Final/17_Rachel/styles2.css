@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+font-family: basel-neue, sans-serif;
+font-weight: 300;
+font-style: normal;
+	}
+header{
+	background-color: #95558a;
+}
+h1{
+	
+font-family: roboto, sans-serif;
+font-weight: 700;
+font-style: normal;
+color: #c0c65a;
+}
+h2{
+	font-family: forma-djr-banner, sans-serif;
+	text-align: left;
+	font-weight: 600;
+	font-style: italic;
+	color: #33291f;
+	font-size: 3vw
+ }
+	
+	h3{
+font-family: roboto, sans-serif;
+font-weight: 700;
+font-style: bold;
+text-align:center;
+	}
+
+.button{
+	display: inline-block;
+	width: 50%;
+	background-color: #c64234;
+	color: black;
+	text-decoration: none;
+	margin: 2%;
+	padding:2%;
+	border-radius: 15px;
+	border: solid 3px #d25632;
+	font-weight:700;
+	text-align:center;
+	font-family: forma-djr-banner, sans-serif;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.About {
+	text-align: center;
+	background-color: white;
+	margin: 2%;
+	border-radius: 15px;
+	border: solid 3px #8fb9b8;
+}
+
+.Movies, .Jewelry{
+	float:left;
+	width: 44%;
+	text-align: center;
+	background-color: white;
+	margin: 2%;
+	border-radius: 15px;
+	border: solid 3px #8fb9b8;
+	
+}
+.follow, .contact{
+	
+	float:left;
+	width: 44%;
+	text-align: center;
+}
+.clear {
+	clear:both;
+	
+}
+img {
+	width: 100%;
+	height: auto;
+	
+}
+.Jewelry img{
+	width: 70%;
+	
+}
+
+.container{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #a8478a;
+}
+nav a:link {
+	background-color: #f1a842;
+	display: inline-block;
+	width: 30%;
+	margin-right: 2%;
+	text-align: center; 
+	text-decoration: none; 
+    height:30px;           
+	line-height:2em;
+	font-family: roboto, sans-serif;
+font-weight: 700;
+font-style: normal;
+color:black; 
+	
+}
+nav {
+	background-color: #d77d39;
+}
+footer{
+background-color: #f1a842;	
+}
+
+

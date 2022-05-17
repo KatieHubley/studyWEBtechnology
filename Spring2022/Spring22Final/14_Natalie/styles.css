@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	background-color:#D6EFF7;
+	
+}
+
+h1 { 
+background-color: #FBF7F7;
+}
+
+nav {
+	text-align: center;
+}
+
+nav a:link {
+
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+	width: 30%;
+	font-family: bebas-neue-by-fontfabric, sans-serif;
+	font-weight: 90;
+	font-style: bold;
+	text-align: center;
+	font-size: 80%;
+	margin-top: 20px;
+	
+}
+
+img {
+	width: 100%;
+	height: auto
+}
+
+h2 {
+	font-family: bebas-neue-by-fontfabric, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	text-align: center;
+	background-color: #7CBBCF;
+	color: #FDFAFA;
+	border-radius: round;
+	
+	
+}
+
+	
+
+h3 {
+	font-family: bebas-neue-by-fontfabric, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	text-align: center;
+	background-color: white;
+	color:#718DA9;
+
+
+	
+}
+
+.column {
+	float: left;
+	padding: 2.5%;
+
+}
+.clearfloat {
+	clear: both;
+}
+footer {
+	font-size: 50%;
+	text-align: center;
+}
+
+
+

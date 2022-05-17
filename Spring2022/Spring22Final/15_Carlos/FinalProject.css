@@ -1,0 +1,397 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Fredoka+One&family=Gloria+Hallelujah&family=Jost:wght@700&family=Oleo+Script&family=Varela+Round&display=swap');
+
+/*@keyframes bgcolor {
+    0% {
+        background-color: #E8CBC0
+    }
+
+    30% {
+        background-color: #636FA4
+    }
+
+    60% {
+        background-color: #E8CBC0
+    }
+
+    90% {
+        background-color: #636FA4
+    }
+
+    100% {
+        background-color: #636FA4
+    }
+}*/
+
+
+html{
+ height: 100%;
+ width: 100%;
+}
+
+body{
+ width: 100%;
+ height: 100%;
+}  
+
+
+body{
+	/*-webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 20s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;*/
+	
+	background-color: #F8F7FF;
+}
+
+
+#blockmain{
+font-family: 'Fredoka One', cursive;
+		font-size: 50px;
+		position: absolute;
+	padding-top: 40px;
+	top: 70px;
+	color: white;
+	align-content: left;
+	padding-left: 200px;
+	padding-right: 100px;
+	background-color: none;
+	margin: none;
+
+}
+
+.header #blockmain{
+	background: -webkit-linear-gradient(#f58216, #F58216);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+;
+}
+.header #blockmain a:link {     
+    color: red;
+	 text-decoration: none;
+}
+
+.topnav{
+	font-size: 20px;
+	width: 50%;
+  	display: flex;
+  	flex-direction: row;
+	font-family: 'Comfortaa', cursive;
+	padding-top: 90px;
+	position: absolute;
+	left: 700px;
+	background-color: none;
+	margin-left: 0px;
+}
+
+.topnav .block{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.topnav a{
+	color: black;
+}
+
+.topnav a:link {
+    color:black;
+	 text-decoration: none;
+}
+
+.topnav a:hover {
+  color: #6C63FF;
+}
+
+.mainpic img{
+	position: absolute;
+	top: 200px;
+	left: 800px;
+	
+}
+
+.block{
+	width: 150px;
+}
+
+.blockmain{
+	width: 100px;
+}
+
+.content h1{
+	font-size: 60px;
+	font-weight: 100;
+	margin-top: 24px;
+	margin-bottom: 15px;
+	color: #6C63FF;
+	position: absolute;
+	padding-top: 300px;
+	padding-left: 150px;
+	font-family: 'Varela Round', sans-serif;
+}
+
+.content #typed{
+	color: #F58216;
+}
+
+.mainpic  #blob{
+	transform: rotate(90deg);
+	top: 145px;
+	left: 770px;
+	padding-top: 0;
+	margin-top: 0;
+	
+}
+
+.frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+button {
+  margin: 20px;
+}
+.custom-btn {
+	top: 550px;
+	left: 400px;
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: absolute;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+
+  
+.btn-15 {
+  background: #F58216;
+  border: none;
+  z-index: 1;
+}
+.btn-15:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #663dff;
+  border-radius: 5px;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+}
+.btn-15:hover {
+  color: #fff;
+}
+.btn-15:hover:after {
+  left: 0;
+  width: 100%;
+}
+.btn-15:active {
+  top: 2px;
+}
+
+
+
+
+
+
+
+/*CSS FOR CARDS GOES HERE 
+*/
+
+.container body {
+    color: #2d4152;
+    box-sizing: border-box;
+    line-height: 1.414;
+    padding-bottom: 100px;
+}
+
+.container h1 {
+    padding: 32px 0;
+    font-size: 3.5em;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+.cards{
+    position: absolute;
+	top: 700px;
+	right: -175px;
+	padding-right: 0px;
+	display: grid;
+	grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+	padding-bottom: 100px;
+}
+
+.cards__card {    
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.05);
+    
+}
+    .cards__card img {
+        object-fit: cover;
+        width: 100%;
+        height: 240px;
+    }
+
+
+.cards__description {
+    padding: 0 20px 10px 20px;
+}
+
+.cards__description h2{
+		font-family: 'Comfortaa', cursive;
+
+}
+
+
+.cards__description p{
+
+}
+
+footer {
+	
+	position: absolute;
+	background-color: #6C63FF;
+	padding-top: 20px;
+    top: 1300px;
+	text-align: center;
+    width: 100%;
+    height: 2.5rem;
+	padding-bottom: 20px;
+
+}
+
+footer p {
+	font-family: 'Comfortaa', cursive;
+	color: white;
+	padding-bottom: 20px;
+}
+
+
+
+
+/*Code for second page starts here*/
+
+.whoAreWeMain{
+	
+	padding-top: 250px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 70px;
+	
+}
+
+
+.whoAreWeMain h1{
+	font-family: 'Comfortaa', cursive;
+}
+
+.whoAreWeMain p{
+	font-family: 'Comfortaa', cursive;
+
+}
+
+.containerWhoAreWe{
+  
+	display: grid;
+  grid-template-columns: 60% 30%;
+  grid-gap: 10%;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+
+
+
+
+aside, main{
+  height: 100%;
+  color:black;
+  font-size: 1.2em;
+  font-family: 'Comfortaa', cursive;
+	text-align: left;
+	
+}
+
+main{
+ background: none; 
+}
+
+aside{
+  background: none;
+}
+
+aside img{
+	width: 400px;
+  height: auto;
+}
+
+
+
+.contactform{
+	text-align: right;
+	display: grid;
+  	grid-template-columns: 60% 30%;
+  	grid-gap: 10%;
+	padding-left: 100px;
+	padding-right: 100px;
+	position: absolute;
+	top: 450px;
+	right: 350px;
+	
+}
+
+.headerContact h2{
+	font-family: 'Fredoka One', cursive;
+	font-size: 30px;
+	position: absolute;
+	top: 250px;
+	right: 665px;
+	text-align: center;
+	float: center;
+	color: #6C63FF;
+}
+
+#lastfooter{
+	position: absolute;
+	background-color: #6C63FF;
+	padding-top: 20px;
+    top: 840px;
+	text-align: center;
+    width: 100%;
+    height: 2.5rem;
+	padding-bottom: 20px;
+
+}
+
+

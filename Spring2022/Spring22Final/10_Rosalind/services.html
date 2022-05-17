@@ -1,0 +1,408 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Services</title>
+<!--Link to the Adobe Fonts-->
+<link rel="stylesheet" href="https://use.typekit.net/gct8zbs.css">
+<!--Link to the main stylesheet-->
+<link href="styles.css" rel="stylesheet" type="text/css">
+	
+<!--Internal Stylesheet-->
+<style>
+	/*This is for widescreens*/
+	.miniservices {
+		display: none;
+	}
+	.servicescontainer h1 {
+		font-size: 3.6vw;
+	}
+	.servicescontainer h3 {
+		font-size: 2.2vw;
+		text-transform: uppercase;
+		line-height: 2px;
+	}
+	span {
+		color: rgba(141,109,57,1.00);
+		font-style: italic;
+	}
+	.servicescontainer p {
+		font-size: 1.8vw;
+		margin-bottom: -4%;
+	}
+	.servicescontainer li {
+		font-size: 1.8vw;
+	}
+	.engagements {
+		width:80%;
+		margin-top: 10%;
+		margin-left: 15%;
+	}
+	.engagementcol1 img {
+		width: 100%;
+	}
+	.engagementcol1 {
+		width: 40%;
+		float: left;
+	}
+	.engagementcol2 {
+		width: 40%;
+		float: left;
+		margin-left: 5%;
+	}
+	.clearfloat {
+		clear: both;
+	}
+	.weddings {
+		width:80%;
+		margin-top: 10%;
+		margin-left: 15%;
+	}
+	.weddingcol2 img {
+		width: 100%;
+	}
+	.weddingcol1 {
+		width: 40%;
+		float: left;
+	}
+	.weddingcol2 {
+		width: 40%;
+		float: left;
+		margin-left: 5%;
+	}
+	.clearfloat {
+		clear: both;
+	}
+	.family {
+		width:80%;
+		margin-top: 10%;
+		margin-left: 15%;
+	}
+	.familycol1 img {
+		width: 100%;
+	}
+	.familycol1 {
+		width: 40%;
+		float: left;
+	}
+	.familycol2 {
+		width: 40%;
+		float: left;
+		margin-left: 5%;
+	}
+	.clearfloat {
+		clear: both;
+	}
+	
+	/*This is for small screens*/
+	@media screen and (max-width:745px){
+		.servicescontainer {
+			display: none;
+		}
+		.miniservices {
+			display: block;
+		}
+		.miniservices h1 {
+			font-size: 5.8vw;
+		}
+		.miniservices h3 {
+			font-size: 3vw;
+			text-transform: uppercase;
+			line-height: 2px;
+		}
+		.miniservices p {
+			font-size: 3vw;
+			margin-bottom: -3%;
+		}
+		.miniservices li {
+			font-size: 2.5vw;
+		}
+		.engagementsbox {
+			width: 100%;
+		}
+		.engagementrow1 img {
+			width: 100%;
+		}
+		.engagementrow1 {
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.engagementrow2 {
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.weddingrow1 img {
+			width: 100%;
+		}
+		.weddingrow1 {
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.weddingrow2 {
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.familyrow1 img {
+			width: 100%;
+		}
+		.familyrow1 {
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.familyrow2 {
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+</style>
+
+</head>
+
+<body>
+	<div class="container">
+		<!--This is the logo and nav bar-->
+		<div class="logo">
+			<a href="index.html"><img src="images/MainLogo.svg" alt="Logo"></a>
+		</div>
+		
+		<nav id="hamnav">
+			<label for="hamburger">&#9776;</label>
+			<input type="checkbox" id="hamburger">
+			<div id="hamitems">
+				<a href="about.html">About</a>
+				<a href="gallery.html">Gallery</a>
+				<a href="services.html">Services</a>
+				<a href="contact.html">Contact</a>
+			</div>
+			<a href="index.html"><h1 class="textlogo">Camille Rose Photo &amp; Film</h1></a> 
+		</nav>
+		
+		
+		<!--This is the container for all the services-->
+		<!--This is for wide screens-->
+		<div class="servicescontainer">
+			<div class="engagements">
+				<div class="engagementcol1">
+					<img src="images/Services3.jpg" alt="Photo of man holding woman in a field">
+				</div>
+				<div class="engagementcol2">
+					<a name="engage"></a>
+					<h1>Engagements</h1>
+					<h3>Photos Only, <span>$400</span></h3>
+					<p>This package is for up to 3 hours and includes:</p>
+					<ul>
+						<li>a location of your choice</li>
+						<li>20 digital downloads &amp; prints</li>
+						<li>online gallery</li>
+					</ul>
+					<h3>Photos &amp; Short Film, <span>$550</span></h3>
+					<p>This package is for up to 3 hours and includes:</p>
+					<ul>
+						<li>a location of your choice</li>
+						<li>20 digial downloads &amp; prints</li>
+						<li>online gallery</li>
+						<li>5-minute short film</li>
+					</ul>
+				</div>
+			</div>
+			
+			<br class="clearfloat">
+			
+			<div class="weddings">
+				<div class="weddingcol1">
+					<a name="wedding"></a>
+					<h1>Weddings</h1>
+					<h3>Photos Only, <span>$1,300</span></h3>
+					<p>This package is for 6 hours of wedding day coverage including:</p>
+					<ul>
+						<li>behind the scenes preparations</li>
+						<li>30 digital downloads &amp; prints</li>
+						<li>online gallery</li>
+					</ul>
+					<h3>Photos &amp; Short Film, <span>$2,300</span></h3>
+					<p>This package is for 6 hours of wedding day coverage including:</p>
+					<ul>
+						<li>behind the scenes preparations</li>
+						<li>30 digital downloads &amp; prints</li>
+						<li>online gallery</li>
+						<li>10-minute short film of the day</li>
+					</ul>
+				</div>
+				<div class="weddingcol2">
+					<img src="images/Services1.jpg" alt="Photo of bride and groom hugging each other">
+				</div>
+				
+			</div>
+			
+			<br class="clearfloat">
+			
+			<div class="family">
+				<div class="familycol1">
+					<img src="images/Services2.jpg" alt="Photo of man holding a young boy standing next to a woman">
+				</div>
+				<div class="familycol2">
+					<a name="family"></a>
+					<h1>Family</h1>
+					<h3>Photos Only, <span>$350</span></h3>
+					<p>This package is for up to 3 hours and includes:</p>
+					<ul>
+						<li>a location of your choice</li>
+						<li>15 digital downloads &amp; prints</li>
+						<li>online gallery</li>
+					</ul>
+					<h3>Photos &amp; Short Film, <span>$450</span></h3>
+					<p>This package is for up to 3 hours and includes:</p>
+					<ul>
+						<li>a location of your choice</li>
+						<li>15 digital downloads &amp; prints</li>
+						<li>online gallery</li>
+						<li>5-minute short film</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!--This is for small screens-->
+		<div class="miniservices">
+			<!--This is for the engagements-->
+			<div class="engagementsbox">
+				<div class="engagementrow1">
+					<a name="engagesmall"></a>
+					<h1>Engagements</h1>
+					<img src="images/Services3.jpg" alt="Photo of man holding woman in a field">
+				</div>
+				<div class="engagementrow2">
+					<h3>Photos Only, <span>$400</span></h3>
+					<p>This package is for up to 3 hours and includes:</p>
+					<ul>
+						<li>a location of your choice</li>
+						<li>20 digital downloads &amp; prints</li>
+						<li>online gallery</li>
+					</ul>
+					<h3>Photos &amp; Short Film, <span>$550</span></h3>
+					<p>This package is for up to 3 hours and includes:</p>
+					<ul>
+						<li>a location of your choice</li>
+						<li>20 digial downloads &amp; prints</li>
+						<li>online gallery</li>
+						<li>5-minute short film</li>
+					</ul>
+				</div>
+			</div>
+			
+			<br class="clearfloat">
+			
+			<!--This is for the weddings-->
+			<div class="weddingsbox">
+				<div class="weddingrow1">
+					<a name="weddingsmall"></a>
+					<h1>Weddings</h1>
+					<img src="images/Services1.jpg" alt="Photo of bride and groom hugging each other">
+				</div>
+				<div class="weddingrow2">
+					<h3>Photos Only, <span>$1,300</span></h3>
+					<p>This package is for 6 hours of wedding day coverage including:</p>
+					<ul>
+						<li>behind the scenes preparations</li>
+						<li>30 digital downloads &amp; prints</li>
+						<li>online gallery</li>
+					</ul>
+					<h3>Photos &amp; Short Film, <span>$2,300</span></h3>
+					<p>This package is for 6 hours of wedding day coverage including:</p>
+					<ul>
+						<li>behind the scenes preparations</li>
+						<li>30 digital downloads &amp; prints</li>
+						<li>online gallery</li>
+						<li>10-minute short film of the day</li>
+					</ul>
+				</div>
+			</div>
+			
+			<br class="clearfloat">
+			
+			<!--This is for the family-->
+			<div class="familybox">
+				<div class="familyrow1">
+					<a name="familysmall"></a>
+					<h1>Family</h1>
+					<img src="images/Services2.jpg" alt="Photo of man holding a young boy standing next to a woman">
+				</div>
+				<div class="familyrow2">
+					<h3>Photos Only, <span>$350</span></h3>
+					<p>This package is for up to 3 hours and includes:</p>
+					<ul>
+						<li>a location of your choice</li>
+						<li>15 digital downloads &amp; prints</li>
+						<li>online gallery</li>
+					</ul>
+					<h3>Photos &amp; Short Film, <span>$450</span></h3>
+					<p>This package is for up to 3 hours and includes:</p>
+					<ul>
+						<li>a location of your choice</li>
+						<li>15 digital downloads &amp; prints</li>
+						<li>online gallery</li>
+						<li>5-minute short film</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<br class="clearfloat">
+		<!--This is the footer-->
+		<footer>
+			<!--This div is for the social media icons to the left.-->
+			<div class="socialicons">
+				<!--This dic is for the social media title-->
+				<div class="footertitle1">
+					<p>Follow Me</p>
+				</div>
+				
+				<!--This div is for the top row of icons-->
+				<div class="iconbox1">
+					<a href="#"><img src="images/facebookicon.png" alt="Facebook icon"></a>
+					<a href="#"><img src="images/linkedinicon.png" alt="LinkedIn Icon"></a>
+					<a href="#"><img src="images/instaicon.png" alt="Instagram Icon"></a>
+					<a href="#"><img src="images/twittericon.png" alt="Twitter Icon"></a>
+				</div>
+		 	</div>
+			
+			<!--This div is for the services links to the right.-->
+			<div class="footerservices">
+				<div class="footertitle2">
+					<p>Services</p>
+				</div>
+				<!--Nav for widescreen-->
+				<div class="widenav">
+					<nav>
+						<a href="services.html#engage">Engagement</a>
+						<a href="services.html#wedding">Wedding</a>
+						<a href="services.html#family">Family</a>
+					</nav>
+				</div>
+				<!--Nav for small screens-->
+				<div class="smallnav">
+					<nav>
+						<a href="services.html#engagesmall">Engagement</a>
+						<a href="services.html#weddingsmall">Wedding</a>
+						<a href="services.html#familysmall">Family</a>
+					</nav>
+				</div>
+			</div>
+			
+			<!--This div is for the faded log that is in the middle-->
+		  	<div class="footerlogo"> 
+				<div class="footerimage">
+					<img src="images/FadedLogo.svg" alt="Flower Logo">
+				</div>
+		  	</div>
+			<p>Copyright &copy; Camille Rose Photo &amp; Film</p>
+		</footer>
+	</div>
+</body>
+</html>

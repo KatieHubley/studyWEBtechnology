@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: url("teahub.io-deep-ocean-wallpaper-1136261.jpg");
+	background-size:cover;
+
+}
+
+.container
+{
+	font-size:120%;
+
+font-family: angie-sans, sans-serif;
+font-weight: 500;
+font-style: normal;
+    max-width: 1200px;
+    padding: 15px 0px 15px 0px;
+    margin-left: auto;
+    margin-right: auto;
+	background-color:#181626
+		
+		
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/*column types*/
+.col1
+{
+  float: left;
+	color:white;
+	text-align:center;
+  width: 60%;
+	border: 4px solid lightblue;
+  padding: 10px 50px 10px 50px;
+	height:800px;
+	
+
+}
+.col2{
+  float: left;
+	color:white;
+	text-align:center;
+  width: 40%;
+	border: 2px solid lightblue;
+  padding: 10px;
+	height:400px;
+
+}
+.col3{
+  float: left;
+	color:white;
+	text-align:center;
+  width: 40%;
+	border: 2px solid lightblue;
+  padding: 10px;
+	height:800px;
+}
+.col4{
+	float: left;
+	color:white;
+	text-align:center;
+  width: 33%;
+  padding: 10px;
+	height:400px;
+}
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+a{
+	color:lightblue;
+}
+p{
+	text-align: center;
+}
+
+header {
+    color: white;
+	background-image: url("../../Downloads/teahub.io-ocean-wallpaper-23040.jpg");
+	background-position: center;
+	margin-left:20px;
+	margin-right:20px;
+	
+}
+
+/*welcome*/
+.column1
+{
+	color:white;
+	margin-left:20px;
+	margin-right:20px;
+	
+}
+
+/*featured creature, site navigation, and follow us*/
+.column2{
+	color:white;
+
+}
+
+/*featured documentary and gallery*/
+.column3{
+
+	color:white;
+
+}
+
+/*quick links*/
+.column4{
+	
+	color:white;
+	text-align: center;
+	border: 4px solid lightblue;
+  padding: 10px;
+	height:450px;
+}
+
+/*taking action and contact*/
+.column5{
+	color:white;
+}
+
+/*top of page*/
+.column6{
+	color:white;
+}
+footer{
+	color:white;
+	text-align:center;
+}
+h1{
+	font-family: caprizant, sans-serif; 
+	font-size:400%;
+}
+h2{	
+font-family: acumin-pro, sans-serif;
+font-weight: 800;
+font-style: normal;
+
+}
+
+.explore{
+	font-style:italic;
+}

@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.container{
+	background-color:darkcyan;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo img{
+	width: 100%;
+	height: auto;
+	margin: 3px;
+}
+
+.logo{ 
+	width: 10%;
+	float: left;
+	margin: 3px;
+ 
+}
+
+
+
+
+h1 {
+	float: left;
+	font-size: 5vw;
+	font-family: cooper-black-std, serif;
+
+font-weight: 400;
+
+font-style: italic;
+}
+
+nav {
+	background-color: aquamarine;
+	text-align: right;
+	clear: both;
+	font-size: 3vw
+}
+
+
+
+h2{ 
+	background-color: aquamarine;
+	font-size: 4vw;
+	clear:both;
+	margin-top: 10%;
+	font-family: hwt-artz,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+
+
+.right {
+	float: right;
+	margin-top: -9.5%;
+	margin-right: 10px;
+	font-size: 4vw;
+}
+
+
+.aboutme{
+	float: left;
+	
+}
+
+.mainabout{
+	margin: 15px
+}
+
+.self {
+	margin-left: 10%;
+}
+.self img{
+	width: 20%;
+	height: auto;
+	margin: 2px;
+	float: left;
+	display:inline-block;
+}
+
+.self p {
+	width: 70%;
+	float: left;
+}
+
+.words{
+	float: left;
+	text-align: left;
+	
+}
+
+
+p {
+		font-size: 3vw;
+font-family: ratio,sans-serif;
+font-weight: 500;
+font-style: italic;
+	
+}
+
+footer{ 
+	
+	background-color: aquamarine;
+	font-size: 4vw;
+	clear:both;
+	margin-top: 20%;
+}
+
+p2 {
+	font-size: 3vw;
+	margin-top:15px;
+		font-family: ratio,sans-serif;
+font-weight: 500;
+font-style: italic;
+}
+
+p3{
+	clear: both;
+	float: left;
+	font-size: 3vw;
+	margin-top:15px;
+		font-family: ratio,sans-serif;
+font-weight: 500;
+font-style: italic;
+}
+
+
+.images {
+	clear: both;
+	text-align: center;
+	margin-bottom: 80%;
+}
+
+.imagecontainer img, .imagecontainer2 img {
+	width: 90%;
+	height: auto;
+	margin-bottom: 7px
+}
+
+.imagecontainer {
+	width: 45%;
+	float: left;
+	text-align: center;
+}
+ .imagecontainer2 {
+	width: 40%;
+	float: left;
+	text-align: center;
+}
+
+.right2 {
+	float: right;
+	margin-top: -5.5%;
+	margin-right: 10px;
+	font-size: 4vw;
+}
+
