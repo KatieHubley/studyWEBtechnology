@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+font-style: normal;
+font-family: 'Aladin', cursive;
+color: palevioletred;
+font-size: 10vw;
+margin: 0;
+text-align: center
+
+}
+.container{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:aquamarine
+		
+
+}
+.imagecontainer img {
+	width: 100%;
+	height: auto;
+}
+.imagecontainer{
+	width: 33%;
+	float: left;
+}
+.column2 img {
+	width: 50%;
+	height: auto;
+}
+a:link {
+	color:blueviolet;
+}
+nav a:link {
+	font-size: 150%;
+}
+nav {
+	text-align:center;
+}

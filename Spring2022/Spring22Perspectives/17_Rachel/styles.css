@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: neuzeit-grotesk, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+h1{
+font-family: jaf-herb, serif;
+font-weight: 400;
+font-style: normal;
+font-size: 11vw;
+margin: 0;
+text-align: center;		
+}
+
+.column2 img{
+	width: 30%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+.imagecontainer img {
+	width: 50%;
+	height: auto;
+}
+
+
+header{
+	background-color: #DC755B; 
+} 
+
+.column1 {
+	width:48%;
+	background-color:#388689;
+	float: left;
+    }
+
+.column2 {
+	width:30%;
+	background-color:#FEC037;
+	float: right;
+	}
+
+.images{
+	background-color:#C53A41; 
+}
+
+
+
+footer {
+	background-color:#A9ABA6; 
+	}
+
+
+

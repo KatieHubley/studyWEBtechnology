@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+   font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    background-color: #FCDEA8;
+}
+
+.container {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(255,255,255,0.70);
+    align-content: center;
+}
+ 
+nav {
+    text-align: center;
+    color: black;
+    letter-spacing: .1rem;
+}
+
+a:link {
+    color: rgba(170,44,26,1.00);
+}
+
+h1 {
+    color: darkred;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 60px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+p{
+    font-weight: 400;
+    color: black;
+}
+
+.icon {
+    width: 35%;
+    height: auto;
+}
+
+.column1 {
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.column2 {
+    width: 60%;
+    float: right;
+}
+
+.images {
+    clear: both;
+  
+}
+
+.imagecontainer img, .imagecontainer2 img, .imagecontainer3 img{
+    width: 90%;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.imagecontainer {
+    width: 30%;
+    float: left;
+}
+
+.imagecontainer2 {
+    width: 30%;
+    float: left;
+    
+}
+
+.imagecontainer3 {
+    width: 30%;
+    float: left;
+}
+
+.clearfloat {
+    clear: both;
+}
+
+blockquote {
+    color: orangered;
+    font-size: 150%;
+    margin: 0;
+}
+
+
+footer {
+text-align: center;
+    color:black;
+    font-size: 75%;
+}
+
+
+.world {
+    display: block;
+    font-size: 133;
+    font-weight: 600;
+    line-height: 1em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.see { 
+font-size: 100%;
+display: block;
+font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

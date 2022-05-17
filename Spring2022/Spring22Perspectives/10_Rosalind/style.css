@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: ivystyle-tw, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 19px;
+	background-image: url("images/Background2.jpg");
+	background-color: hsla(49,91%,60%,0.72);
+	background-blend-mode:screen;
+}
+
+header {
+	text-align: center;
+	background-color: hsla(354,99%,66%,0.85);
+}
+
+header img {
+	width: 19%;
+	height:auto;
+	float:left;
+	margin-left:2%;
+	margin-top: 8.5%;
+}
+
+.container {
+	width: 86%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: hsla(0,11%,95%,0.89);
+}
+
+h1 {
+	color: hsla(0,0%,100%,1.00);
+	font-size: 9vw;
+	font-family: click-clack, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	float:right;
+	margin-right: 3.5%;
+}
+
+nav {
+	clear:both;
+	text-align: center;
+	background-color: hsla(49,92%,60%,0.92);
+}
+
+nav a:link {
+	color: hsla(221,98%,22%,1.00);
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 1.5vw;
+}
+
+a:link {
+	color: hsla(354,99%,66%,1.00);
+	text-decoration: none;
+}
+
+a:hover {
+	color: hsla(354,98%,46%,1.00);
+}
+
+blockquote {
+	font-family: click-clack, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 4vw;
+	clear: both;
+}
+
+
+.column1 {
+	font-family: click-clack, sans-serif;
+	font-weight: 400;
+	text-align: center;
+	font-size: 3vw;
+	color: hsla(354,99%,66%,1.00);
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8%;
+}
+
+/*This is for the perspectives world being pink*/
+.column2 em {
+	color:hsla(354,99%,66%,1.00);
+}
+
+.column2 {
+	text-align: justify;
+	color: hsla(221,98%,22%,1.00);
+	width: 65%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5%;
+	margin-bottom: 6%;
+
+}
+
+.images {
+	clear:both;
+}
+/*This is for the small image on the left*/
+.imagecontainer img {
+	width: 100%;
+	height: auto;
+}
+
+.imagecontainer {
+	width:32%;
+	float: left;
+	margin-left: 17%;
+}
+
+/*This is for the small image on the right*/
+.imagecontainer2 img {
+	width: 80%;
+	height: auto;
+}
+
+.imagecontainer2 {
+	width:40%;
+	float: right;
+	margin-right: 9%
+}
+
+/*This is for the large image beneath the 2 smaller ones */
+.imagecontainer3 img {
+	width: 90.5%;
+	height: auto;
+}
+.imagecontainer3 {
+	width: 73%;
+	margin-left: 17%;
+	margin-top: 1.5%;
+}
+
+.clearfloat {
+	clear:both;
+}
+/*This is for the third row of images*/
+.images2 {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+footer {
+	color: hsla(221,98%,22%,1.00);
+	text-align: center;
+}
+
+/*This is for the drop cap in the paragraph*/
+span {
+	float: left;
+  	line-height: 85%;
+	width: .7em;
+  	font-size: 300%;
+	margin-right: -1%;
+}

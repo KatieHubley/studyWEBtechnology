@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+font-family: futura-pt, sans-serif;
+font-weight: 300;
+font-style: normal;
+text-align: center;
+background-color:#A7BDD7;
+	
+}
+header {
+
+}
+nav {
+	text-align: center;
+}
+.container {
+	width: 80%;
+	margin-left: auto;
+	text-align: center;
+	
+}
+
+a:link {
+	color: rgba(158,61,159,1.00)
+}
+a:hover {
+	color:aquamarine;
+}
+h1 {
+color:chartreuse;
+font-family: 'Bebas Neue', cursive;
+font-weight: 400;
+font-style: normal;
+font-size: 19vw;
+margin: 0;
+text-align: center;
+	
+}
+h1:hover {
+	color:darkorchid;
+}
+
+.icon {
+	width: 75%;
+	height: auto;
+	text-align: center;
+
+}
+
+.column1 {
+	width: 60%;
+	float: left;
+}
+.column2 {
+	width: 60%;
+	float: right;
+	background-color: aqua;
+	
+}
+
+.images {
+	clear: both;
+}
+
+.imagecontainer img {
+	width: 100%;
+	height: auto;
+}
+
+.imagecontainer {
+	width: 100%;
+	float: left;
+	
+	
+}
+.clearfloat {
+	clear: both;
+}
+
+blockquote {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 200%;
+	margin: 0;
+	
+}
+
+.world {
+	display: block;
+	font-size: 200%;
+	color: aquamarine;
+	
+}
+.as {
+	display: block;
+	font-size: 200%;
+}
+.to {
+	display: block;
+	font-size: 200%
+}
+
+
+
+

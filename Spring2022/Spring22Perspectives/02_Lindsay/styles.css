@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+header {
+	background-color: magenta;
+}
+*/
+
+body {
+	font-family: forma-djr-deck, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	background-color: rgba(255,252,192,1.00);
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("images/pexels-roman-odintsov-7907011.jpg");
+	background-blend-mode: multiply;
+}
+
+em {
+	color:rgba(255,154,109,1.00);
+}
+
+h1 {
+	color: black;
+	font-size: 4vw;
+	font-family: europa, sans-serif;font-weight: 700;
+	font-style: normal;
+	text-align: center;
+}
+
+h1:hover {
+	color:rgba(255,154,109,1.00);
+}
+
+blockquote {
+	font-family: decoy, serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+
+}
+
+/*When you hover over links, this will change the color of the link*/
+a:hover {
+	color: grey;
+}
+
+/*
+.column1 {
+	background-color: yellowgreen;
+}
+*/
+
+.container {
+	background-color:rgba(126,126,126,0.76);
+}
+
+.world {
+	display: block;
+	font-size: 200%
+}
+
+.column1 {
+	/*background-color: coral;*/
+	clear: both;
+	/*That gets rid of the grey from extending downward*/
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	/* All of these margins are centering the quote in the document so it's not touching the corners of the area it takes up.*/
+	float: left;
+} 
+
+.column2 img {
+	width: 20%;
+	height: auto;
+}
+
+.column3 {
+	background-color:rgba(52,52,52,1.00);
+	color: white;
+	/*By adding float to the element above this, column1, it moved up to be next to it.*/
+	/*Questions: How do I straighten out the grey bar around the text so it's more even and in the middle? The bottom margin is much greater than the top... after clicking a link also, it becomes an unreadable purple color which is terrible on the grey. How do I change that color to something more visible? 
+	Some of my links do not change color on hover.*/
+}
+
+
+.images {
+	background-color: rgba(232,228,120,1.00);
+}
+
+.imagecontainer img {
+	width: 95%;
+	height: auto;
+	margin-bottom: 0px;
+	margin-left: 2%;
+}
+
+.imagecontainer2 img {
+	width: 100%;
+}
+
+/* .pp3 {
+	float: left;
+}
+
+.pp3 img {
+	width: 70%;
+}
+*/
+.imagecontainer {
+	float: right;
+	width: 47.6%;
+	margin-top: 3px;
+	margin-right: 10px
+}
+
+.imagecontainer2 {
+	/*This isn't lining on top, they're side by side*/
+	float: left;
+	width: 48%;
+	margin-left: 17px;
+	margin-top: 3px;
+	/*49% + 1px = 50%*/
+}
+
+footer {
+	background-color: black;
+	color: white;
+}
+
+nav {
+	margin-left: 150px;
+	margin-right: 150px;
+	background-color: black;
+}
+
+.radio {
+	font-weight: 200;
+}
+
+.clearfloat {
+	clear:both;
+}
+/*This is removing clipping issues on the bottom of the page.*/
+
+nav a:link {
+	color:rgba(161,211,135,1.00);
+	
+}
+a:link {
+	color:rgba(161,211,135,1.00);
+}

@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Press+Start+2P&display=swap');
+
+.container h1{
+font-family: 'Press Start 2P', cursive;
+	font-size: 1.5em;
+	padding: 20px 20px;
+}
+body{
+	font-family: Arial;
+	margin: 0;
+}
+
+
+.container {
+	width: 80%;
+	marrgin-left: auto;
+	margin-right: auto;
+	background-color: #F0F0F0;
+}
+
+nav{
+	text-align: center;
+	background: lightgrey;
+	padding: 8px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: mediumpurple;
+  text-align: center;
+  padding: 14px;
+padding-left: 75px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+a:link{
+	color: #F28C28
+}
+h1{
+	color: mediumpurple;
+	font-size: 100px;
+	font-family: 'Bebas Neue', cursive;
+	text-align: center;
+	background-color:#A9A9A9;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+
+.column2 p {
+	font-family: 'Jost', sans-serif;
+
+}
+
+.icon{
+	width: 40%;
+	height: auto;
+}
+
+
+.column1{
+	width: 48%;
+/*	background-color: cornsilk;
+*/	float: left;
+}
+
+.column2{
+	width: 48%;
+/*	background-color: cornflowerblue;
+*/	float: right;
+}
+
+
+.images{
+/*	background-color: aquamarine;
+*/	clear: both;
+}
+
+.imagecontainer img{
+	width: 50%;
+		height: auto;
+	padding: 0;
+}
+
+.imagecontainer{
+	width: 30%;
+	float:right;
+	height: 100px;
+	overflow: hidden;
+	text-align: center;
+}
+.clearfloat{
+	clear: both;
+}
+
+.world{
+	display: block;
+	font-size: 200%;
+	line-height: 1.2em;
+	font-family: 'Bebas Neue', cursive;
+}
+
+
+.see{
+	font-size: 70%;
+	font-style: italic;
+}
+
+blockquote{
+	font-family: 'Bebas Neue', cursive;
+	color: #00A3A3;
+	font-size: 200%;
+	margin: 0;
+}
+
+footer{
+	text-align: center;
+}

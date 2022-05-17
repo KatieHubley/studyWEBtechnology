@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header{
+	background-color: cornsilk;
+}
+
+body{
+	font-family: Georgia, "serif";
+	margin: 0;
+	background-color: white;
+}
+.container{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+nav{
+	text-align: center;
+}
+
+a:hover {
+	color: royalblue;
+}
+
+a:link {
+	color: darkcyan;
+}
+
+h1 {
+	font-family: "Bebas Neue";
+	color: darkcyan;
+	font-size: 15vw; 
+	margin: 0;
+	text-align: center;
+}
+
+.column1 {
+	width: 50%;
+	float: left;
+	
+}
+
+.column2 {
+	width: 50%;
+	float: left;
+	
+}
+.icon {
+	width: 35%;
+	height: auto;
+	
+}
+
+.imagecontainer img {
+	width: 90%;
+	height: auto;
+	
+}
+.images {
+	background-color: cornsilk;
+	clear: both;
+}
+.imagecontainer{
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.clearfloat{
+	clear: both;
+}
+blockquote{
+	font-family: "Bebas Neue";
+	font-size: 130%;
+	margin: 0;
+	color: darkcyan;
+
+}
+
+footer {
+	background-color: cornsilk;
+	color: darkcyan;
+}

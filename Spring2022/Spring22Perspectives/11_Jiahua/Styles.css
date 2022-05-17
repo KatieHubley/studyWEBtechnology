@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {	
+		margin: 0;
+		background-color:rgba(238,160,161,0.79);
+		background-image: url("bg-sakura_1.jpg");
+		background-size:100%;
+		backgroune-blend-mode:color-burn;
+		}
+
+.container{
+			width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+	background-color:rgba(255,240,240,0.92);
+			 }
+nav {
+	text-align: center;
+	color: rgba(128,0,0,1.00);
+	font-family: Arial;
+}
+
+a:link {
+	color: #C44165;
+	margin:1px;
+} 
+
+header {
+	background-color: pink;
+	}
+
+h1 {
+	color:rgba(91,34,45,1.00);
+	font-size: 10vw;
+	font-family: scriptorama-markdown-jf,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin: 0;
+	text-align: center;
+}
+
+.icon {
+	width: 55%;
+	height: auto;
+}
+
+.column1 {
+	width: 48%;
+/*	background-color: aliceblue;*/
+	float: left;
+	text-align: center;
+	padding-top:5px;
+}
+
+.column2 {
+	width: 50%; 
+	/*background-color: cornsilk; */
+	float: left;
+	font-family: Arial
+}
+
+.images{
+/*	background-color: lightpink; */
+	clear: both; 
+}
+
+.imagecontainer img {
+	width: 89%; 
+	height:auto;
+	float: right;
+}
+
+.imagecontainer {
+	width: 32%;
+	float: left;
+	}
+
+.clearfloat {
+	clear: both;
+}
+
+blockquote {
+	font-family:'Bebas Neue', cursive;
+	color: #C44165;
+	font-size: 300%;
+	margin: 0;
+	}
+
+.world {
+	display: block;
+	color: maroon;
+	foint-size: 133%;
+	line-height: 1em;
+	font-family: scriptorama-markdown-jf,sans-serif;
+}
+.see {
+	font-size: 60%;
+	display: block;
+	font-style: italic;
+}
+
+footer{ background-color: rgba(255,191,204,1.00);
+		margin-top: 3%;
+		font-family: Arial;
+	color: rgba(128,0,0,1.00);
+}

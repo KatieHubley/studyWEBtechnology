@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	font-family: helvetica, arial, "sans serif";
+	background: url("images/tent.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	background-color: rgba(38,38,38,0.93);
+	background-blend-mode: overlay;
+	margin: 0;
+}
+
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav {
+	text-align: center;
+	font-family: calder-dark-grit,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2vw;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+	width: auto;
+}
+
+a {
+	color: darkseagreen;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: lightblue;
+}
+
+h1 {
+	color: white;
+	font-family: calder-shadow,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 8vw;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.images {
+	background-color: rgba(35,35,35,0.93);
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.imagecontainer1 {
+	float: left;
+	width: 100%;
+	padding-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imagecontainer2 {
+	width: 100%;
+	clear: left;
+	padding-top: 2em;
+}
+.imagecontainer1 img {
+	width: 47.9%;
+	border-radius: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: auto;
+}
+
+.imagecontainer2 img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+blockquote {
+	text-align: center;
+	padding-top: 50px;
+	font-family: amatic-sc, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 4em;
+}
+
+p {
+	font-family: raleway;
+	font-size: 16pt;
+	text-align: center;
+	
+}
+
+.column1 {
+	width: 100%;
+	padding-bottom: 2em;
+}
+
+.column1 p {
+	font-family: amatic-sc, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 4em;
+}
+
+.column2 {
+	background-color: rgba(35,35,35,0.93);
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+  	padding: 20px;
+}
+.icon {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding-bottom: 2em;
+}
+
+footer {
+	text-align: center;
+	clear: left;
+	font-family: calder dark grit;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 7px;
+}

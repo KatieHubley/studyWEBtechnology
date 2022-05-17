@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icon_set" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 323.93" style="enable-background:new 0 0 400 323.93;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<rect id="background" class="st0" width="400" height="323.93"/>
+<g id="camera">
+	<ellipse cx="200" cy="181.75" rx="64.11" ry="63.8"/>
+	<path d="M345.91,39.57h-41.18l-7.34-13.67C294.35,11.23,275.34,0,254.77,0H145.23c-20.58,0-39.58,11.23-42.62,25.9l-7.34,13.67
+		H54.09C24.21,39.57,0,63.79,0,93.66v176.19c0,29.87,24.21,54.09,54.09,54.09h291.83c29.87,0,54.09-24.21,54.09-54.09V93.66
+		C400,63.79,375.79,39.57,345.91,39.57z M200,270.09c-48.88,0-88.65-39.63-88.65-88.34c0-48.71,39.77-88.34,88.65-88.34
+		s88.65,39.63,88.65,88.34C288.65,230.46,248.88,270.09,200,270.09z"/>
+</g>
+</svg>

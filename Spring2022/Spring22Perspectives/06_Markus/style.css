@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+h1 {
+	
+	font-family: brevia, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	font-size: 70px;
+	text-align: center;
+	color: darkblue;
+	margin-top: 0;
+   }
+
+
+nav	{
+	
+	font-family: brevia, sans-serif;
+	text-align: center;
+	font-size: 14px;
+	line-height: 0em;
+	margin-top: -6%
+		
+   }
+
+
+body {
+	
+	margin-top: 0;
+	margin-bottom: 0.5%;
+	background-image: url("images/Black and white camera.jpg");
+	background-size: 20%;
+	background-color: teal;
+	background-blend-mode: multiply;
+	
+	}
+
+
+p {
+	
+	font-family: proxima-nova, sans-serif;
+	color: darkblue;
+	font-style: normal;
+	font-weight: 300;
+	
+	}
+
+
+footer {
+	
+	text-align: center;
+	color: darkblue;
+	
+	}
+
+
+.camera img {
+	
+	margin-left: 2%;
+	margin-top: 4%;
+	width: 40%;
+	
+	}
+
+
+.camera {
+	
+	background-color: lightcyan;
+	margin-top: 5%;
+	height: 195px;
+	
+	}
+
+
+.container {
+	
+	background-color:rgba(132,172,206,0.94);
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+	}
+
+
+.column1 {
+	
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	color: teal;
+	margin-left: 50%;
+	margin-top: -30%;
+	margin-bottom: 14%;
+	font-size: 20px;
+	
+	}
+
+.imagecontainer {
+	
+	width: 50%;
+	float: left;
+	
+	}
+	
+
+.imagecontainer img {
+	
+	width: 97%;
+	height: auto;
+	margin-left: 2%;
+	
+	
+	}
+
+.imagecontainer2 {
+	
+	width: 50%;
+	float: right;
+	
+	}
+	
+.imagecontainer2 img {
+	
+	width: 98%;
+	height: 174px;
+	
+	
+	}
+
+footer {
+	
+	clear: both;
+	padding: 11px;
+  	
+	}
+
+blockquote {
+	
+	margin: 0;
+	font-family: brevia, sans-serif;
+	margin-right: 5%;
+	font-weight: 900;
+	margin-top: 10%;
+	
+	}
+
+.column1 p {
+	
+	font-family: brevia, sans-serif;
+	font-size: 80%;
+	font-style: italic;
+	
+	} 
+
+.column2 p {
+	
+	margin-left: 1.6%;
+	
+
+	}
+
+.imagecontainer3 img {
+	
+	padding-top: 5px;
+	height: 184px;
+	
+	}
+

@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: landa, sans-serif;
+	background-color: cornsilk;
+	background-image: url("images/pexels-photo-2911521.jpeg");
+	background-size: 50%;
+	margin: 0;
+}
+
+.icon {
+	width: 80%;
+	height: auto;
+}
+
+.column1 {
+	width: 45%;
+	float: left;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.column2 {
+	width: 45%;
+	float: right;
+}
+
+.images {
+	clear: both;
+	margin-left: 10.5%;
+}
+
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+.imagecontainer {
+	width: 43.2%;
+	float: left;
+	text-align: center;
+}
+
+.imagecontainer2 {
+	width: 50%;
+	float: left;
+}
+
+.imagecontainer img, .imagecontainer2 img {
+	width: 89%;
+	height: auto;
+	margin-bottom: 5;
+}
+
+.clearfloat {
+	clear: both;
+}
+
+blockquote {
+	font-family: landa, sans-serif;
+	color: cornflowerblue;
+	font-size: 100%;
+	margin: 0;
+	line-height: 2.5em;	
+}
+
+h1 {
+	font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+	font-style: normal;
+	font-size: 13vw;
+	margin: 0;
+	text-align: center;
+	color: brown;
+}
+
+nav a:link {
+	color:lightsalmon;
+	text-decoration: none;
+	text-transform: capitalize; 
+	font-size: 130%;
+	letter-spacing: .05em;
+	margin-right: 10px;
+}
+
+nav {
+	text-align: center;
+}
+
+.show {
+	font-size: 150%;
+	font-family: cursive;
+	display: block;
+}
+.world {
+	display: block;
+	font-size: 175%;
+	font-family: cursive;
+}
+
+.see {
+	font-size: 200%;
+	display: block;
+	font-family: cursive;
+}
